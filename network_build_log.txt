@@ -1,0 +1,36 @@
+{'seed_papers': 45, 'reference_occurrences': 2244, 'unique_cited_reference_nodes': 1879, 'total_nodes': 1924, 'direct_edges': 2237, 'undated_reference_nodes': 35, 'dated_reference_nodes': 1844, 'earliest_reference_year': 1947, 'latest_reference_year': 2026, 'reference_nodes_2017': 60, 'included_with_outgoing_links': 45}
+R0001 24 2016 MIMIC-III, a freely accessible critical care database 10.1038/sdata.2016.35
+R0002 19 2023 MIMIC-IV, a freely accessible electronic health record dataset 10.1038/s41597-022-01899-x
+R0003 15 2023 Large language models encode clinical knowledge 10.1038/s41586-023-06291-2
+R0004 12 2016 RETAIN: an interpretable predictive model for healthcare using reverse time attention mechanism 
+R0005 9 2017 GRAM: Graph-based attention model for healthcare representation learning 10.1145/3097983.3098126
+R0006 8 2017 Attention is all you need 
+R0007 8 2022 Chain-Of-Thought Prompting Elicits Reasoning in Large Language Models 10.52202/068431-1800
+R0008 7 2018 The eICU Collaborative Research Database, a freely available multi-center database for critical care research 10.1038/sdata.2018.178
+R0009 7 2020 Retrieval-augmented generation for knowledge-intensive NLP tasks 
+R0010 7 2023 Gpt-4 technical report 10.48550/arxiv.2303.08774
+R0011 6 2020 BEHRT: Transformer for Electronic Health Records 10.1038/s41598-020-62922-y
+R0012 6 2020 HiTANet: Hierarchical Time-Aware Attention Networks for Risk Prediction on Electronic Health Records 10.1145/3394486.3403107
+R0013 6 2020 Language models are few-shot learners 
+R0014 6 2022 Lora: Low-rank adaptation of large language models 10.48550/arxiv.2106.09685
+R0015 6 2025 ColaCare: Enhancing Electronic Health Record Modeling through Large Language Model-Driven Multi-Agent Collabor 10.1145/3696410.3714877
+R0016 6 2025 Toward expert-level medical question answering with large language models 10.1038/s41591-024-03423-7
+R0017 5 2016 Doctor AI: predicting clinical events via recurrent neural networks 
+R0018 5 2018 Interpretable Representation Learning for Healthcare via Capturing Disease Progression through Time 10.1145/3219819.3219904
+R0019 5 2023 Large language models in medicine 10.1038/s41591-023-02448-8
+R0020 5 2024 Prompting large language models for zero-shot clinical prediction with structured longitudinal electronic heal 10.48550/arxiv.2402.01713
+R0021 5 2024 RAM-EHR: Retrieval Augmentation Meets Clinical Predictions on Electronic Health Records 10.18653/v1/2024.acl-short.68
+R0022 4 2017 On calibration of modern neural networks 
+R0023 4 2019 GAMENet: Graph Augmented MEmory Networks for Recommending Medication Combination 10.1609/aaai.v33i01.33011126
+R0024 4 2019 Pre-training of Graph Augmented Transformers for Medication Recommendation 10.24963/ijcai.2019/825
+R0025 4 2021 SafeDrug: Dual molecular graph encoders for recommending effective and safe drug combinations 10.24963/ijcai.2021/514
+R0026 4 2022 A large language model for electronic health records 10.1038/s41746-022-00742-2
+R0027 4 2022 BioGPT: generative pre-trained transformer for biomedical text generation and mining 10.1093/bib/bbac409
+R0028 4 2022 Context-aware health event prediction via transition functions on dynamic disease graphs 10.1609/aaai.v36i4.20380
+R0029 4 2023 Graphcare: Enhancing healthcare predictions with personalized knowledge graphs 
+R0030 4 2023 MoleRec: Combinatorial drug recommendation with substructure-aware molecular representation learning 10.1145/3543507.3583872
+R0031 4 2024 Agent hospital: A simulacrum of hospital with evolvable medical agents 10.48550/arxiv.2405.02957
+R0032 4 2024 Evaluation and mitigation of the limitations of large language models in clinical decision-making 10.1038/s41591-024-03097-1
+R0033 4 2024 The Llama 3 herd of models. arXiv https://doi.org/10.48550/arXiv.2407.21783 (2024). 10.48550/arxiv.2407.21783
+R0034 3 2004 The unified medical language system (UMLS): integrating biomedical terminology 10.1093/nar/gkh061
+R0035 3 2015 Adam: a method for stochastic optimization 

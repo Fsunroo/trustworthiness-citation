@@ -1,0 +1,19 @@
+Could not detect number of cores, defaulting to 1.
+
+WOS DB:
+Searching local citations (LCS) by reference items (SR) and DOIs...
+
+Analyzing 4116 reference items...
+
+Found 1884 documents with no empty Local Citations (LCS)
+Recovered 2237 Expected 2237 
+[1] source target
+<0 rows> (or 0-length row.names)
+Raw matrix edges: 1161 ; reconciled native LCR edges: 2237 
+Warning message:
+Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
+ℹ Please use `linewidth` instead.
+ℹ The deprecated feature was likely used in the bibliometrix package.
+  Please report the issue at
+  <https://github.com/massimoaria/bibliometrix/issues>. 
+VALIDATED: 1924 total nodes; 2237 direct edges; all 45 source papers retained in full data.
