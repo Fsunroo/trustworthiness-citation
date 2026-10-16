@@ -1,6 +1,6 @@
 from pathlib import Path
 import json, csv
-base = Path(__file__).resolve().parent
+base = Path(__file__).resolve().parent / "output"
 model = json.loads((base / "expanded_network.json").read_text())
 nodes = {n["id"]: n for n in model["nodes"]}
 edges = {(e["source"], e["target"]) for e in model["edges"]}

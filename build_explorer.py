@@ -1,9 +1,9 @@
 from pathlib import Path
 import json
-BASE=Path(__file__).resolve().parent
+BASE=Path(__file__).resolve().parent/'output'
 model=json.loads((BASE/'expanded_network.json').read_text())
-js=(BASE/'vendor/vis-network.min.js').read_text()
-css=(BASE/'vendor/vis-network.min.css').read_text()
+js=(BASE.parent/'vendor/vis-network.min.js').read_text()
+css=(BASE.parent/'vendor/vis-network.min.css').read_text()
 data=json.dumps(model,ensure_ascii=False).replace('<','\\u003c')
 html=r'''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Included papers and their cited references</title><style>VISCSS
 *{box-sizing:border-box}body{margin:0;font:14px -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#203e50;background:#f6f8fa}header{padding:22px 28px 14px;background:white;border-bottom:1px solid #dce4eb}h1{font-size:26px;margin:0 0 8px}header p{margin:6px 0;color:#566e7e}.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:15px}input,select,button{font:inherit;padding:9px 11px;border:1px solid #bdcdd8;border-radius:6px;background:white;color:#214e6d}input{width:440px;max-width:90vw}button{cursor:pointer}button:hover{background:#edf4f9}main{display:grid;grid-template-columns:minmax(0,1fr) 360px;height:calc(100vh - 220px);min-height:550px}#network{background:white}aside{padding:20px;overflow-y:auto;border-left:1px solid #dce4eb;background:#f9fbfc}aside h2{font-size:19px;margin-top:0}aside p{line-height:1.5}#neighbors button{display:block;text-align:left;width:100%;margin:7px 0;font-size:12px}.badge{display:inline-block;padding:4px 8px;background:#e6eff5;border-radius:4px;color:#326f99}.gold{background:#f6eddc;color:#8f611c}.legend{font-size:12px;color:#607789;margin-top:12px}#status{padding:10px 28px;font-size:13px;background:#edf3f7}a{color:#226286}#evidence{white-space:pre-wrap;font-size:12px;line-height:1.5;max-height:220px;overflow:auto}details{margin-top:14px}footer{font-size:12px;color:#607789;padding:10px 28px;border-top:1px solid #dce4eb}@media(max-width:900px){main{grid-template-columns:1fr;height:auto}#network{height:600px}aside{border-left:none;border-top:1px solid #dce4eb}}</style>

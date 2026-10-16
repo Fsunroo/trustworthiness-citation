@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,csv,sqlite3,hashlib,urllib.parse,xml.etree.ElementTree as ET,collections
-BASE=Path(__file__).resolve().parent;ROOT=BASE.parents[1]
+BASE=Path(__file__).resolve().parent/'output';ROOT=BASE.parents[1]
 m=json.load(open(BASE/'expanded_network.json'));ns={n['id']:n for n in m['nodes']};out=collections.defaultdict(list)
 for e in m['edges']:out[e['source']].append(e['target'])
 def sr(n):return n['id'].upper()+', '+str(n['year']or'0000')+', REFERENCE'

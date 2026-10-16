@@ -1,5 +1,5 @@
 args <- commandArgs(trailingOnly=TRUE)
-base <- if(length(args)) normalizePath(args[[1]]) else getwd()
+base <- if(length(args)) normalizePath(args[[1]]) else normalizePath("output")
 suppressPackageStartupMessages(library(bibliometrix))
 M <- read.csv(file.path(base,'bibliometrix_expanded.csv'),na.strings='',check.names=FALSE,stringsAsFactors=FALSE)
 M$CR<-as.character(M$CR);M$DI<-as.character(M$DI);M$DE<-as.character(M$DE);M$ID<-as.character(M$ID)

@@ -1,6 +1,6 @@
 from pathlib import Path
 import json,hashlib,urllib.request,urllib.parse,concurrent.futures,time
-BASE=Path(__file__).resolve().parent
+BASE=Path(__file__).resolve().parent/'output'
 requests=json.load(open(BASE/'doi_metadata_requests.json'));cache=BASE/'doi_metadata';cache.mkdir(exist_ok=True)
 def fetch(doi):
  p=cache/(hashlib.sha256(doi.encode()).hexdigest()+'.json')

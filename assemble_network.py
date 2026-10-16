@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,re,csv,collections,hashlib,unicodedata
-BASE=Path(__file__).resolve().parent;ROOT=BASE.parents[1]
-SEEDS=json.load(open(BASE/'inputs/included_papers.json'))
+BASE=Path(__file__).resolve().parent/'output';ROOT=BASE.parents[1]
+SEEDS=json.load(open(BASE.parent/'inputs/included_papers.json'))
 records=json.load(open(BASE/'reference_occurrences.json'))
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',s).lower())
 items=[]

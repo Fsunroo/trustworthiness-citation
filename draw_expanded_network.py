@@ -4,7 +4,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
-BASE=Path(__file__).resolve().parent
+BASE=Path(__file__).resolve().parent/'output'
 m=json.load(open(BASE/'expanded_network.json'));allnodes={n['id']:n for n in m['nodes']}
 refs=[n for n in m['nodes']if n['kind']=='cited_reference'][:25]
 selected=[n for n in m['nodes']if n['kind']=='included']+refs
