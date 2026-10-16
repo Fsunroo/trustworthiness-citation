@@ -1,7 +1,8 @@
+from output_paths import output_path
 from pathlib import Path
 import json,re,csv,collections,hashlib,unicodedata,itertools
 from extract_references import SEEDS,OUT,ROOT,flat,norm
-BLOCKS=json.load(open(OUT/'fulltext_reference_blocks.json'));byseed=collections.defaultdict(list)
+BLOCKS=json.load(open(output_path('fulltext_reference_blocks.json')));byseed=collections.defaultdict(list)
 for b in BLOCKS:byseed[b['citing']].append(b)
 CATALOG=[]
 for seed in SEEDS.values():
@@ -94,7 +95,7 @@ for ident,seed in SEEDS.items():
    records.append(dict(occurrence_id=rid,citing=ident,reference_number=bi+1,source_kind='fulltext_additional_reference',source_path=seed['textpath'],source_text=seed['textpath'],raw=b['raw'],reported_crossref=None,doi=ds[0]if ds else'',arxiv=aid,**meta,source_start_line=b.get('source_start_line'),source_end_line=b.get('source_end_line')));extras.append(bi+1)
  audit.append(dict(article_id=ident,crossref_reference_items=len(refs),fulltext_blocks=len(blocks),analysis_reference_items=len(refs)if refs else len(blocks),extra_fulltext_reference_numbers=extras,source=source))
 # Enrich from already downloaded primary DOI metadata, if present.
-enrich=OUT/'doi_metadata';enrich.mkdir(exist_ok=True)
+enrich=output_path('doi_metadata');enrich.mkdir(exist_ok=True)
 for r in records:
  if not r['doi']:continue
  file=enrich/(hashlib.sha256(r['doi'].encode()).hexdigest()+'.json')
@@ -124,9 +125,9 @@ for r in records:
   r['title']='Attention is all you need';r['title_basis']='reviewed_literal_title';r['year']=2017
  if r['doi']=='10.1145/3097983.3098126' or 'gramgraphbasedattentionmodelforhealthcarerepresentationlearning' in raw_norm:
   r['title']='GRAM: Graph-based attention model for healthcare representation learning';r['title_basis']='reviewed_literal_title';r['year']=2017
-(OUT/'reference_occurrences.json').write_text(json.dumps(records,ensure_ascii=False,indent=2))
-(OUT/'source_coverage.json').write_text(json.dumps(audit,indent=2))
+(output_path('reference_occurrences.json')).write_text(json.dumps(records,ensure_ascii=False,indent=2))
+(output_path('source_coverage.json')).write_text(json.dumps(audit,indent=2))
 # Primary metadata requests needed for DOI-only or unparsed titles/years.
 need=collections.Counter(r['doi']for r in records if r['doi']and(not r['title']or not r['year']or r['title_basis']in ['parsed_citation_title','raw_citation_only']))
-(OUT/'doi_metadata_requests.json').write_text(json.dumps(need,indent=2))
+(output_path('doi_metadata_requests.json')).write_text(json.dumps(need,indent=2))
 print('Reference occurrences',len(records),'seeds',len(audit),'missing title',sum(not r['title']for r in records),'missing year',sum(not r['year']for r in records),'DOI metadata requests',len(need))

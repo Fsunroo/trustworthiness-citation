@@ -1,8 +1,9 @@
+from output_paths import output_path
 from pathlib import Path
 import json,re,csv,collections,hashlib,unicodedata
 BASE=Path(__file__).resolve().parent/'output';ROOT=BASE.parents[1]
 SEEDS=json.load(open(BASE.parent/'inputs/included_papers.json'))
-records=json.load(open(BASE/'reference_occurrences.json'))
+records=json.load(open(output_path('reference_occurrences.json')))
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',s).lower())
 items=[]
 for ident,s in SEEDS.items():
@@ -53,9 +54,9 @@ for j,r in enumerate(refs,1):r['short_id']=f'R{j:04}'
 for n in entities:
  if n['kind']=='included':n['short_id']=n['seed_ids'][0]
 model=dict(nodes=entities,edges=list(edges.values()),seed_ids=list(SEEDS),scope='45 included reports plus their directly cited works; no references-of-references inferred',counts=dict(seed_papers=len(SEEDS),reference_occurrences=len(records),unique_cited_reference_nodes=len(refs),total_nodes=len(entities),direct_edges=len(edges),undated_reference_nodes=sum(n['year']is None for n in refs),dated_reference_nodes=sum(n['year']is not None for n in refs),earliest_reference_year=min(n['year']for n in refs if n['year']),latest_reference_year=max(n['year']for n in refs if n['year']),reference_nodes_2017=sum(n['year']==2017 for n in refs),included_with_outgoing_links=len({e['citing_seed']for e in edges.values()})))
-(BASE/'expanded_network.json').write_text(json.dumps(model,ensure_ascii=False,indent=2))
+(output_path('expanded_network.json')).write_text(json.dumps(model,ensure_ascii=False,indent=2))
 for filename,rows in [('network_nodes.csv',entities),('network_edges.csv',list(edges.values()))]:
- with (BASE/filename).open('w',newline='',encoding='utf-8-sig')as f:
+ with (output_path(filename)).open('w',newline='',encoding='utf-8-sig')as f:
   w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader()
   for r in rows:w.writerow({k:json.dumps(v,ensure_ascii=False)if isinstance(v,list)else v for k,v in r.items()})
 print(model['counts'])

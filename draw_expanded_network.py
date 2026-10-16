@@ -1,3 +1,4 @@
+from output_paths import output_path
 from pathlib import Path
 import json,collections,textwrap,math
 import matplotlib
@@ -5,7 +6,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyArrowPatch
 BASE=Path(__file__).resolve().parent/'output'
-m=json.load(open(BASE/'expanded_network.json'));allnodes={n['id']:n for n in m['nodes']}
+m=json.load(open(output_path('expanded_network.json')));allnodes={n['id']:n for n in m['nodes']}
 refs=[n for n in m['nodes']if n['kind']=='cited_reference'][:25]
 selected=[n for n in m['nodes']if n['kind']=='included']+refs
 chosen={n['id']for n in selected};edges=[e for e in m['edges']if e['source']in chosen and e['target']in chosen]
@@ -50,7 +51,7 @@ for j,n in enumerate(refs):
 fig.text(.035,.063,'Blue diamonds: included papers (review IDs). Gold circles: cited references; circle area increases with the number of included papers citing the work.',fontsize=11,color='#415b6b')
 fig.text(.035,.044,'Arrows run from citing paper to cited work. Gold links highlight the 2017 reference “Attention is all you need”. Vertical placement is for readability.',fontsize=11,color='#415b6b')
 fig.text(.035,.025,'The complete network and reference evidence are supplied separately. No citation links among external references were inferred. Five source-paper year conflicts and undated references remain in the audit.',fontsize=10,color='#617785')
-for ext in ['png','svg','pdf']:fig.savefig(BASE/('expanded_reference_historiograph.'+ext),dpi=220,facecolor='white')
+for ext in ['png','svg','pdf']:fig.savefig(output_path('expanded_reference_historiograph.'+ext),dpi=220,facecolor='white')
 plt.close(fig)
-(BASE/'focus_view.json').write_text(json.dumps(dict(node_ids=sorted(chosen),reference_ids=[n['id']for n in refs],edge_count=len(edges),year_counts={y:len(g)for y,g in byyear.items()}),indent=2))
+(output_path('focus_view.json')).write_text(json.dumps(dict(node_ids=sorted(chosen),reference_ids=[n['id']for n in refs],edge_count=len(edges),year_counts={y:len(g)for y,g in byyear.items()}),indent=2))
 print('Focus figure:',len(selected),'nodes;',len(edges),'links. PNG, SVG and PDF saved.')

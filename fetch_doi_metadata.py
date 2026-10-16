@@ -1,7 +1,8 @@
+from output_paths import output_path
 from pathlib import Path
 import json,hashlib,urllib.request,urllib.parse,concurrent.futures,time
 BASE=Path(__file__).resolve().parent/'output'
-requests=json.load(open(BASE/'doi_metadata_requests.json'));cache=BASE/'doi_metadata';cache.mkdir(exist_ok=True)
+requests=json.load(open(output_path('doi_metadata_requests.json')));cache=output_path('doi_metadata');cache.mkdir(exist_ok=True)
 def fetch(doi):
  p=cache/(hashlib.sha256(doi.encode()).hexdigest()+'.json')
  if p.exists():return doi,'cached'
@@ -20,5 +21,5 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=4)as pool:
  for count,(doi,status)in enumerate(pool.map(fetch,requests),1):
   results.append({'doi':doi,'status':status})
   if count%25==0:print(count,'/',len(requests),'requests completed',flush=True)
-(BASE/'doi_metadata_fetch_log.json').write_text(json.dumps(results,indent=2))
+(output_path('doi_metadata_fetch_log.json')).write_text(json.dumps(results,indent=2))
 print('Completed',len(results),'requests;',sum(r['status']in ['ok','cached']for r in results),'available metadata records.',flush=True)

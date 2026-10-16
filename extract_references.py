@@ -1,3 +1,4 @@
+from output_paths import output_path
 from pathlib import Path
 import json,re,csv,xml.etree.ElementTree as ET,unicodedata,hashlib
 ROOT=Path(__file__).resolve().parents[1];OUT=Path(__file__).resolve().parent/'output'
@@ -47,7 +48,7 @@ def numbered(ident):
  return out
 
 def hanging(ident):
- p=OUT/'tmp'/(ident+'_bbox.html');ns={'x':'http://www.w3.org/1999/xhtml'}
+ p=OUT/'audit'/'tmp'/(ident+'_bbox.html');ns={'x':'http://www.w3.org/1999/xhtml'}
  root=ET.fromstring(re.sub('[\x00-\x08\x0b\x0c\x0e-\x1f]','',p.read_text()));starts=[]
  for pno,page in enumerate(root.findall('.//x:page',ns),1):
   if pno>ENDPAGE[ident]:break
@@ -82,6 +83,6 @@ for ident,seed in SEEDS.items():
  allrows.extend(raw)
  nums=[r['ref_number']for r in raw]
  audit.append(dict(citing=ident,extracted_reference_blocks=len(raw),crossref_items=len(seed['refs']),numbers_consecutive=nums==list(range(1,len(nums)+1)),parser='hanging_indent'if ident in UNNUMBERED else'numbered',sample_first=raw[0]['raw'][:100]if raw else'',sample_last=raw[-1]['raw'][:150]if raw else''))
-(OUT/'fulltext_reference_blocks.json').write_text(json.dumps(allrows,ensure_ascii=False,indent=2))
-(OUT/'reference_extraction_audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2))
+(output_path('fulltext_reference_blocks.json')).write_text(json.dumps(allrows,ensure_ascii=False,indent=2))
+(output_path('reference_extraction_audit.json')).write_text(json.dumps(audit,ensure_ascii=False,indent=2))
 for a in audit:print(a)
