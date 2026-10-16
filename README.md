@@ -1,6 +1,27 @@
-# Expanded historical citation network
+# Trustworthiness and Reproducibility of Generative Large Language Models Using Public Critical Care EHR Data
 
-This replaces the earlier within-review network with a one-step expansion: **the 45 included papers plus the works in their reference lists**, including papers outside the inclusion set and years before 2024. It is a directed reference network, not a keyword-flow or co-citation diagram.
+## Supporting citation-network analysis
+
+This repository contains the historical direct-citation analysis, figures, interactive explorer, and citation evidence supporting the manuscript **“Trustworthiness and Reproducibility of Generative Large Language Models Using Public Critical Care EHR Data.”**
+
+**Manuscript status:** In preparation for journal submission.
+
+**Manuscript DOI:** Not assigned.
+
+The analysis starts from the 45 papers included in the review and expands the network to the works cited in their reference lists, including earlier foundational publications outside the inclusion set. The repository provides the materials needed to inspect and reproduce this citation-network analysis. It does not contain patient-level EHR data.
+
+## Start here
+
+- [Interactive reference-network explorer](output/explorer/reference_network_explorer.html): download and open locally to search included papers and cited references.
+- [Main figure (PDF)](output/figures/expanded_reference_historiograph.pdf) · [PNG](output/figures/expanded_reference_historiograph.png) · [Editable SVG](output/figures/expanded_reference_historiograph.svg).
+- [Citation evidence](output/evidence/reference_evidence.csv): recovered citation strings, identifiers, source locations, and graph-node mappings.
+- [Output index](output/README.md): guide to all generated files.
+
+## Manuscript and citation information
+
+The manuscript has no DOI at this stage. The DOIs in the network and evidence tables identify the cited publications, not this manuscript. Publication details and the manuscript DOI can be added here when available.
+
+When referring to this repository before publication, identify the manuscript by its full title and include the repository URL and the commit used for the analysis. The repository contains supporting materials for this specific analysis; it is not a complete reproducibility package for every component of the review.
 
 ## Main outputs
 
@@ -48,7 +69,7 @@ The full graph is a descriptive reconstruction of the supplied evidence. It is n
 
 ## Bibliometrix execution and checks
 
-The expanded collection was actually passed to **Bibliometrix 5.5.0** under **R 4.6.1**, using `histNetwork()` and `histPlot()`. The prepared input is `output/bibliometrix/bibliometrix_expanded.csv`: included-paper rows carry the recovered direct references, and added cited-work rows have no collected reference lists. Reference strings use canonical node labels for unambiguous matching. `DB = WOS` selects the normalized-reference parser; this is enriched input, not an original Web of Science export. `TC` / native `GCS` are computational zeros because a harmonized global-citation metric was not collected; do not report those zeros as observed global citations.
+The expanded collection was analyzed with **Bibliometrix 5.5.0** under **R 4.6.1**, using `histNetwork()` and `histPlot()`. The prepared input is `output/bibliometrix/bibliometrix_expanded.csv`: included-paper rows carry the recovered direct references, and added cited-work rows have no collected reference lists. Reference strings use canonical node labels for unambiguous matching. `DB = WOS` selects the normalized-reference parser; this is enriched input, not an original Web of Science export. `TC` / native `GCS` are computational zeros because a harmonized global-citation metric was not collected; do not report those zeros as observed global citations.
 
 Two implementation cases are documented in `run_bibliometrix_expanded.R`:
 

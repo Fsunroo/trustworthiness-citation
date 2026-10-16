@@ -1,5 +1,7 @@
 # Output index
 
+Supporting citation-network analysis for **“Trustworthiness and Reproducibility of Generative Large Language Models Using Public Critical Care EHR Data.”** The manuscript is in preparation for submission and has no assigned DOI.
+
 Start with [the interactive explorer](explorer/reference_network_explorer.html) or [the main figure](figures/expanded_reference_historiograph.pdf).
 
 | Folder | Contents |
