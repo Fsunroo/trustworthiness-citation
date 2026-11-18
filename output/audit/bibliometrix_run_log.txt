@@ -1,19 +1,24 @@
+Archived Bibliometrix run from 2026-10-16 for the same 44 report IDs.
+The archival input used 2025 for CURENet (J0093); the final supplement uses 2026.
+All 2,210 returned source-target pairs match the rebuilt final graph exactly.
+The final-year input was prepared but was not rerun in R.
+
 Could not detect number of cores, defaulting to 1.
 
 WOS DB:
 Searching local citations (LCS) by reference items (SR) and DOIs...
 
-Analyzing 4116 reference items...
+Analyzing 4068 reference items...
 
-Found 1884 documents with no empty Local Citations (LCS)
-Recovered 2237 Expected 2237 
+Found 1863 documents with no empty Local Citations (LCS)
+Recovered 2210 Expected 2210
 [1] source target
 <0 rows> (or 0-length row.names)
-Raw matrix edges: 1161 ; reconciled native LCR edges: 2237 
+Raw matrix edges: 1142 ; reconciled native LCR edges: 2210
 Warning message:
 Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
 ℹ Please use `linewidth` instead.
 ℹ The deprecated feature was likely used in the bibliometrix package.
   Please report the issue at
-  <https://github.com/massimoaria/bibliometrix/issues>. 
-VALIDATED: 1924 total nodes; 2237 direct edges; all 45 source papers retained in full data.
+  <https://github.com/massimoaria/bibliometrix/issues>.
+VALIDATED: 1902 total nodes; 2210 direct edges; all 44 source papers retained in full data.

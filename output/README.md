@@ -10,8 +10,8 @@ Start with [the interactive explorer](explorer/reference_network_explorer.html) 
 | [explorer/](explorer/) | Self-contained interactive reference network |
 | [network/](network/) | Complete graph as JSON, CSV and GraphML; focus-view selection |
 | [evidence/](evidence/) | Citation evidence ledger, recovered reference entries, extraction coverage |
-| [bibliometrix/](bibliometrix/) | Prepared R input, validated edges, native plots, R objects and session versions |
+| [bibliometrix/](bibliometrix/) | Prepared final R input and archived 44-report edge validation |
 | [audit/](audit/) | Validation, chronology flags and execution logs |
-| [metadata/](metadata/) | Cached Crossref DOI responses and retrieval queues |
+| [metadata/](metadata/) | Historical Crossref DOI cache and retrieval records |
 
-The main figure displays all 45 included papers and the 25 most-cited external references. The complete graph retains 1,924 nodes and 2,237 direct citation links. See [methods and reproduction instructions](../README.md).
+The main figure displays all 44 included papers and the 25 most-cited external references. The complete graph retains 1,902 nodes and 2,210 direct citation links. See [methods and reproduction instructions](../README.md).

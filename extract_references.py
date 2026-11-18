@@ -3,6 +3,7 @@ from pathlib import Path
 import json,re,csv,xml.etree.ElementTree as ET,unicodedata,hashlib
 ROOT=Path(__file__).resolve().parents[1];OUT=Path(__file__).resolve().parent/'output'
 SEEDS=json.load(open(ROOT/'outputs/historical_citation_network_2026-10-16/nodes_working.json'))
+SEEDS={ident: SEEDS[ident] for ident in json.loads((OUT.parent/'inputs/included_papers.json').read_text())}
 COVER={r['id']:r for r in json.load(open(ROOT/'outputs/historical_citation_network_2026-10-16/reference_coverage.json'))}
 # Explicit reference-section ends established from local text; exclusive numbered source line.
 ENDS={'J0036':492,'J0216':956,'J0250':1215,'J0345':1069,'J0450':891,'J0519':1127,'SC0116':692,'SC0376':833}

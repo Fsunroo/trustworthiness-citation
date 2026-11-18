@@ -1,7 +1,7 @@
 from output_paths import output_path
 from pathlib import Path
-import json,csv,sqlite3,hashlib,urllib.parse,xml.etree.ElementTree as ET,collections
-BASE=Path(__file__).resolve().parent/'output';ROOT=BASE.parents[1]
+import json,csv,xml.etree.ElementTree as ET,collections
+ROOT=Path(__file__).resolve().parent
 m=json.load(open(output_path('expanded_network.json')));ns={n['id']:n for n in m['nodes']};out=collections.defaultdict(list)
 for e in m['edges']:out[e['source']].append(e['target'])
 def sr(n):return n['id'].upper()+', '+str(n['year']or'0000')+', REFERENCE'
@@ -35,16 +35,15 @@ for n in m['nodes']:
  ET.SubElement(el,'{'+uri+'}data',{'key':'label'}).text=n['short_id']
 for j,e in enumerate(m['edges']):ET.SubElement(g,'{'+uri+'}edge',{'id':str(j),'source':e['source'],'target':e['target']})
 ET.ElementTree(root).write(output_path('expanded_reference_network.graphml'),encoding='utf-8',xml_declaration=True)
-sql='''SELECT id FROM articles WHERE json_extract(payload,'$.data."Eligibility decision"')='Include' AND COALESCE(json_extract(payload,'$.secondaryReviewStatus'),'')!='Pending' ORDER BY id'''
-c=sqlite3.connect('file:'+str(ROOT/'outputs/review_dashboard/review.sqlite3')+'?mode=ro',uri=True);current={x[0]for x in c.execute(sql)}
-assert current==set(m['seed_ids'])and len(current)==45
-assert len(rs)==len(occmap)==2244
+current=set(json.loads((ROOT/'inputs/included_papers.json').read_text()))
+assert current==set(m['seed_ids'])
+assert len(rs)==len(occmap) and {r['citing'] for r in rs}==current
 assert all(e['source']in ns and e['target']in ns and ns[e['source']]['kind']=='included'for e in m['edges'])
 assert len({(e['source'],e['target'])for e in m['edges']})==len(m['edges'])
 assert all(e['source']!=e['target']for e in m['edges'])
 assert {e['citing_seed']for e in m['edges']}==current
 future=[dict(source=e['source'],target=e['target'],source_year=ns[e['source']]['year'],target_year=ns[e['target']]['year'])for e in m['edges']if ns[e['source']]['year']and ns[e['target']]['year']and ns[e['target']]['year']>ns[e['source']]['year']]
 (output_path('chronology_flags.json')).write_text(json.dumps(future,indent=2))
-validation=dict(m['counts'],live_db_cohort_matches=True,all_reference_occurrences_mapped=True,all_45_papers_have_reference_links=True,duplicate_edges=0,self_loops=0,chronology_flags=len(future),doi_metadata_files=len(list((output_path('doi_metadata')).glob('*.json'))),database_modified=False)
+validation=dict(m['counts'],frozen_cohort_matches=True,all_reference_occurrences_mapped=True,all_included_papers_have_reference_links=True,duplicate_edges=0,self_loops=0,chronology_flags=len(future),doi_metadata_files=len(list((output_path('doi_metadata')).glob('*.json'))),database_modified=False)
 (output_path('validation.json')).write_text(json.dumps(validation,indent=2))
 print('Exports prepared and source cohort verified.',validation)

@@ -20,7 +20,7 @@ plt.rcParams.update({'font.family':'DejaVu Sans','svg.fonttype':'none','pdf.font
 fig=plt.figure(figsize=(25,18),facecolor='white')
 ax=fig.add_axes([.035,.12,.645,.77]);key=fig.add_axes([.705,.12,.275,.77]);key.set_xlim(0,1);key.set_ylim(0,1);key.axis('off')
 fig.text(.035,.965,'Historical citation network: included papers and their references',fontsize=25,weight='bold',color='#193342')
-fig.text(.035,.936,f"Focus view: all 45 included papers + the 25 most frequently cited external references | {len(edges)} direct links shown",fontsize=15,color='#526876')
+fig.text(.035,.936,f"Focus view: all {len(m['seed_ids'])} included papers + the 25 most frequently cited external references | {len(edges)} direct links shown",fontsize=15,color='#526876')
 fig.text(.035,.913,f"Complete reconstructed network: {m['counts']['total_nodes']:,} nodes and {m['counts']['direct_edges']:,} links; cited-reference years {m['counts']['earliest_reference_year']}–{m['counts']['latest_reference_year']}",fontsize=12,color='#526876')
 for yr in range(min(byyear),max(byyear)+1):ax.axvline(yr,color='#e5eaee',lw=.8,zorder=0)
 # Uniform node spacing within a year preserves the chronology without implying a vertical metric.
@@ -44,13 +44,13 @@ ax.spines['bottom'].set_color('#c9d3db');ax.set_xlabel('Publication year recorde
 key.text(0,1.025,'CITED REFERENCE KEY',fontsize=12,weight='bold',color='#193342')
 for j,n in enumerate(refs):
  y=1-j*.0396
- key.text(0,y,f"{n['short_id']}   {n['year']}   ·   cited by {n['cited_by_count']}/45 papers",fontsize=9.3,weight='bold',color='#80571d',va='top')
+ key.text(0,y,f"{n['short_id']}   {n['year']}   ·   cited by {n['cited_by_count']}/{len(m['seed_ids'])} papers",fontsize=9.3,weight='bold',color='#80571d',va='top')
  title=n['title'];lines=textwrap.wrap(title,width=69)
  if len(lines)>2:lines=lines[:2];lines[-1]=lines[-1][:65]+'…'
  key.text(0,y-.012,'\n'.join(lines),fontsize=9,linespacing=1.13,color='#304b5c',va='top')
 fig.text(.035,.063,'Blue diamonds: included papers (review IDs). Gold circles: cited references; circle area increases with the number of included papers citing the work.',fontsize=11,color='#415b6b')
 fig.text(.035,.044,'Arrows run from citing paper to cited work. Gold links highlight the 2017 reference “Attention is all you need”. Vertical placement is for readability.',fontsize=11,color='#415b6b')
-fig.text(.035,.025,'The complete network and reference evidence are supplied separately. No citation links among external references were inferred. Five source-paper year conflicts and undated references remain in the audit.',fontsize=10,color='#617785')
+fig.text(.035,.025,'The complete network and reference evidence are supplied separately. No citation links among external references were inferred. See the audit for chronology flags and undated references.',fontsize=10,color='#617785')
 for ext in ['png','svg','pdf']:fig.savefig(output_path('expanded_reference_historiograph.'+ext),dpi=220,facecolor='white')
 plt.close(fig)
 (output_path('focus_view.json')).write_text(json.dumps(dict(node_ids=sorted(chosen),reference_ids=[n['id']for n in refs],edge_count=len(edges),year_counts={y:len(g)for y,g in byyear.items()}),indent=2))

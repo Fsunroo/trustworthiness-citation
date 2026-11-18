@@ -225,15 +225,6 @@
     "sample_last": "04.24; accepted 27.04.24; published 31.05.24 Please cite as: Yoon D, Han C, Kim DW, Kim S, Bae S, Ryu JA, Choi Y Redefining Health Care Data Interoper"
   },
   {
-    "citing": "J0176",
-    "extracted_reference_blocks": 16,
-    "crossref_items": 27,
-    "numbers_consecutive": false,
-    "parser": "numbered",
-    "sample_first": "1186/s12911-018-0623-9 PMC6020175 Hardy F Heyl J Tucker K Data consistency in the English Hospital E",
-    "sample_last": "1016/j.jbi.2021.103938 Supplementary Material Supplementary appendix"
-  },
-  {
     "citing": "J0206",
     "extracted_reference_blocks": 54,
     "crossref_items": 53,

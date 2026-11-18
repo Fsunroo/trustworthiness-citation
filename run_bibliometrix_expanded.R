@@ -48,7 +48,7 @@ H$NetMatrix<-mat
 write.csv(edges,output_file('bibliometrix_validated_edges.csv'),row.names=FALSE)
 write.csv(H$histData,output_file('bibliometrix_histData.csv'),row.names=FALSE)
 saveRDS(H,output_file('bibliometrix_expanded_histResults.rds'))
-# Plot a readable subset: all 45 source papers plus the top 25 cited-reference nodes.
+# Plot a readable subset: all included reports plus the top 25 cited-reference nodes.
 nodes<-jsonlite::fromJSON(output_file('expanded_network.json'))$nodes
 refs<-nodes[nodes$kind=='cited_reference',];top<-head(refs$id,25)
 selected<-nodes$id[nodes$kind=='included'|nodes$id%in%top]
