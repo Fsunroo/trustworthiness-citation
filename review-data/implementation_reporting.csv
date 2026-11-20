@@ -1,0 +1,15 @@
+level,task_family,indicator,total,Y,N,NR,U,UA,NA,known_applicable,unknown_applicability,denominator_min,denominator_max,coverage_Y_over_known_applicable,coverage_lower_bound,coverage_upper_bound,positive_article_ids
+article,all,exact_model,44,7,0,1,36,0,0,44,0,44,44,0.159091,0.159091,0.159091,J0020;J0062;J0073;J0093;J0519;J0531;SC0096
+article,all,prompts,44,22,0,3,15,4,0,43,1,43,44,0.511628,0.5,0.511628,J0009;J0015;J0045;J0056;J0060;J0061;J0095;J0102;J0104;J0113;J0132;J0173;J0216;J0250;J0299;J0345;J0531;SC0007;SC0176;SC0198;SC0230;SC0376
+article,all,decoding,44,2,0,15,22,1,4,40,0,40,40,0.05,0.05,0.05,J0042;J0299
+article,all,cohort_code,44,8,0,23,6,7,0,44,0,44,44,0.181818,0.181818,0.181818,J0056;J0216;J0250;J0299;J0345;J0519;SC0007;SC0198
+article,all,inference_code,44,15,0,22,1,6,0,44,0,44,44,0.340909,0.340909,0.340909,J0009;J0020;J0035;J0036;J0045;J0056;J0216;J0238;J0250;J0299;J0345;J0450;J0531;SC0007;SC0198
+article,all,evaluation_code,44,10,0,23,1,10,0,44,0,44,44,0.227273,0.227273,0.227273,J0009;J0036;J0045;J0216;J0250;J0299;J0345;J0531;SC0007;SC0198
+article,all,independent_reproduction,44,0,0,44,0,0,0,44,0,44,44,0.0,0.0,0.0,
+experiment,all,exact_model,148,19,0,5,124,0,0,148,0,148,148,0.128378,0.128378,0.128378,
+experiment,all,prompts,148,74,0,11,47,16,0,147,1,147,148,0.503401,0.5,0.503401,
+experiment,all,decoding,148,6,0,45,70,4,23,125,0,125,125,0.048,0.048,0.048,
+experiment,all,cohort_code,148,16,0,87,20,24,1,147,0,147,147,0.108844,0.108844,0.108844,
+experiment,all,inference_code,148,44,0,82,4,18,0,148,0,148,148,0.297297,0.297297,0.297297,
+experiment,all,evaluation_code,148,25,0,86,6,31,0,148,0,148,148,0.168919,0.168919,0.168919,
+experiment,all,independent_reproduction,148,0,0,148,0,0,0,148,0,148,148,0.0,0.0,0.0,

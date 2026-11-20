@@ -1,0 +1,485 @@
+[
+  {
+    "study_id": "J0002",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0003",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0009",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0012",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0015",
+    "extracted_summary": [
+      "other"
+    ],
+    "analysis_categories": [
+      "other"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0020",
+    "extracted_summary": [
+      "prompting_only",
+      "trained_from_scratch"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0035",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0036",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0042",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0045",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0056",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0059",
+    "extracted_summary": [
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0060",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0061",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0062",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0073",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0077",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0093",
+    "extracted_summary": [
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0095",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0102",
+    "extracted_summary": [
+      "continued_pretraining",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "continued_pretraining",
+      "fine_tuning"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0104",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0113",
+    "extracted_summary": [
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0132",
+    "extracted_summary": [
+      "prompting_only",
+      "other"
+    ],
+    "analysis_categories": [
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0135",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0173",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0206",
+    "extracted_summary": [
+      "prompting_only",
+      "other"
+    ],
+    "analysis_categories": [
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0216",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0238",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning",
+      "other"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0250",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0299",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0300",
+    "extracted_summary": [
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0345",
+    "extracted_summary": [
+      "prompting_only",
+      "other"
+    ],
+    "analysis_categories": [
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0450",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0519",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0531",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "J0911",
+    "extracted_summary": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0007",
+    "extracted_summary": [
+      "prompting_only",
+      "fine_tuning",
+      "other",
+      "trained_from_scratch"
+    ],
+    "analysis_categories": [
+      "fine_tuning",
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0096",
+    "extracted_summary": [
+      "fine_tuning"
+    ],
+    "analysis_categories": [
+      "fine_tuning"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0116",
+    "extracted_summary": [
+      "other"
+    ],
+    "analysis_categories": [
+      "other"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0159",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0176",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0198",
+    "extracted_summary": [
+      "prompting_only"
+    ],
+    "analysis_categories": [
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0230",
+    "extracted_summary": [
+      "other"
+    ],
+    "analysis_categories": [
+      "other"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  },
+  {
+    "study_id": "SC0376",
+    "extracted_summary": [
+      "prompting_only",
+      "other"
+    ],
+    "analysis_categories": [
+      "other",
+      "prompting_only"
+    ],
+    "note": "Only clinical language-model adaptation; conventional ML and auxiliary-only model training excluded. Explicit system component training retained as other."
+  }
+]

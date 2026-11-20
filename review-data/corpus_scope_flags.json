@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-17",
+  "purpose": "Author adjudication flags under frozen corpus; annotations do not change the44-report inclusion set or retrospectively redefine eligibility.",
+  "flags": [
+    {
+      "article_id": "J0002",
+      "concern": "A surgical admission cohort drawn from MIMIC-IV does not by itself establish that every evaluated stay was an ICU stay; analytic ICU membership needs clarification.",
+      "basis": "Parent main-text and supplement review."
+    },
+    {
+      "article_id": "J0009",
+      "concern": "Diagnostic evaluation uses patient cases/benchmarks of differing origin. ICU analytic membership of each included case set needs explicit differentiation from general diagnostic tasks.",
+      "basis": "Main/supplement experiment boundary review."
+    },
+    {
+      "article_id": "J0093",
+      "concern": "Clinical outputs are classifier labels from LLaMA latent embeddings, with no sampled clinical narrative. Adjudicate fit to existing generative application criterion without relabelling classifier inference as text generation.",
+      "basis": "Agent main-source extraction and parent core-matrix review."
+    },
+    {
+      "article_id": "J0102",
+      "concern": "Final DeLLiriuM risk predictor uses a GatorTronS masked-language-model backbone plus classification head. Adjudicate whether this model role satisfies the review generative application criterion.",
+      "basis": "Complete source extraction, selected static implementation audit and parent core/source review."
+    },
+    {
+      "article_id": "J0113",
+      "concern": "Patient-specific medication output uses a sigmoid classifier after LLM-head replacement; generic medical-code summarization is generated upstream. Distinguish the two roles when considering patient-specific generation eligibility.",
+      "basis": "Agent main-text review and parent selected-source checks."
+    },
+    {
+      "article_id": "SC0096",
+      "concern": "The described mortality model passes a first-token hidden representation to an MLP classification head; autoregressive clinical generation is not reported. Author adjudication of fit to the generative application criterion remains necessary under the frozen corpus.",
+      "basis": "Complete agent main-source review plus parent source check L00110\u2013L00125."
+    },
+    {
+      "article_id": "SC0230",
+      "concern": "LLM generation supplies generic disease descriptions and attributes; existing patient discharge summaries are embedded and final outputs are classifier predictions. Author adjudication of fit to the patient-specific generative application criterion remains necessary under the frozen corpus.",
+      "basis": "Complete agent main-source review and parent inspection of Figure3 (main PDF p5) plus methods/settings evidence."
+    }
+  ]
+}

@@ -1,0 +1,1257 @@
+[
+  {
+    "study_id": "J0002",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "discharge_summarization"
+    ],
+    "target": "Clinician-editable BHC summarizing inpatient surgical trajectory",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0002",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Flag POD inconsistencies in reference BHC against structured admission→surgery→discharge timeline",
+    "role": "auxiliary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0003",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Mortality probability, label, support/conflict factors and uncertainty",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0009",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Single final diagnosis plus structured reasoning from multi-turn simulated early emergency encounter",
+    "role": "primary",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0009",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Single diagnosis among appendicitis/cholecystitis/diverticulitis/pancreatitis from simulated abdominal-pain encounter",
+    "role": "primary",
+    "dataset_ids": [
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0009",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Single final diagnosis from challenging sequential case-report diagnostic encounters",
+    "role": "primary",
+    "dataset_ids": [
+      "D4"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0009",
+    "task_id": "T4",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Estimate diagnosis/reasoning correctness using internal likelihood, hedging, clinical concept density and repeated-run semantic consistency; route cases to autonomous or review stream",
+    "role": "auxiliary",
+    "dataset_ids": [
+      "D2",
+      "D4"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0012",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "discharge_summarization"
+    ],
+    "target": "Four post-discharge care planning synopses: data, information, knowledge, wisdom",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0015",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "ICU mortality",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0015",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "ICU length of stay >3 days",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0015",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "ICU length of stay >7 days",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0020",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary delirium risk and evidence-grounded narrative report",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D3",
+      "D4"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0035",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Open-ended ranked list of up to 10 diagnoses following interactive patient questioning",
+    "role": "primary",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0035",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Interactive multiple-choice medical question answering",
+    "role": "auxiliary",
+    "dataset_ids": [
+      "D3",
+      "D4"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0035",
+    "task_id": "T3",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Patient response generation and truthfulness/relevance evaluation",
+    "role": "auxiliary",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0036",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary prediction for each of ten diseases at next hospital visit, with rationale",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0036",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "CVD event: coronary heart disease, CHF, MI or stroke within one year after initial type 2 diabetes diagnosis",
+    "role": "primary",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0042",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Multilabel prediction of all diagnosis codes in final visit from historical visits",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0042",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Heart failure occurrence in final visit",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0045",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary in-hospital mortality prediction using high-risk extracted medical information, severity scores and longitudinal physiological records",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0045",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "14 binary high-risk disease/treatment-status diagnostic criteria; clinical-expert agreement assessed on 50 patients",
+    "role": "auxiliary",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0056",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Visit–medication link prediction; LLM evaluates justifiable/unjustifiable medication recommendations with explanatory reports",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0059",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Disease-label classification used to assess patient similarity (diagnostic rather than prognostic endpoints)",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0059",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Medical event/element/relation extraction from EMR narrative",
+    "role": "auxiliary preprocessing; qualitative extraction example comparison",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0059",
+    "task_id": "T3",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Generate disease-relevant medical background descriptions for graph event elements",
+    "role": "auxiliary feature generation; qualitative demonstration",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D4"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0059",
+    "task_id": "T4",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "SHHS Visit 2 classification/similarity validation; exact disease/label target not specified",
+    "role": "additional modality experiment",
+    "dataset_ids": [
+      "D6"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0060",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary prediction of ARDS development beyond 24 hours after ICU admission",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0061",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Multi-label binary classification of25 established disease phenotypes co-occurring during an admission",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0062",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation",
+      "other"
+    ],
+    "target": "Risk-factor interpretation; recommended examinations; management; follow-up plans; concise summary",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0062",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "ICU mortality probability and SHAP values supplied to LLM",
+    "role": "upstream clinical prediction",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0062",
+    "task_id": "T3",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Score clinical support responses using IMPACT",
+    "role": "evaluation_only",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0073",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Injury pattern, onset and recovery time per suspect drug",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0073",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping",
+      "treatment_recommendation"
+    ],
+    "target": "Drug-specific likelihood rating/rationale, consolidated SBAR and medication management recommendation",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0073",
+    "task_id": "T3",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Phenotypes and DILI characteristics from LiverTox descriptions",
+    "role": "auxiliary",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0077",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary AKI risk/outcome and explanatory report",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0093",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Top-ten chronic condition labels at next visit T+1 from prior visits",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0093",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary heart-failure diagnosis at visit T+1",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0095",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "other",
+      "treatment_recommendation"
+    ],
+    "target": "Top-three absolute SHAP features, reconcile known prediction and outcome, suggest clinical plan",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0095",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Extubation failure defined as re-intubation within 48h after extubation",
+    "role": "upstream prediction model; not primary benchmarking",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0102",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Probability of delirium after first 24h until ICU discharge",
+    "role": "primary clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0104",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Probability between 0 and 1 for in-hospital death",
+    "role": "primary clinical task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0113",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Multi-label medication probabilities thresholded to medication combination",
+    "role": "primary clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0132",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Admission severity classification mild vs severe",
+    "role": "clinical",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0132",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "In-hospital mortality: alive versus expired",
+    "role": "clinical",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0132",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Hospital length of stay in days",
+    "role": "clinical",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0132",
+    "task_id": "T4",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "ICU length of stay in days",
+    "role": "clinical",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0135",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Classify AP severity mild versus severe and estimate APACHE-II and Ranson scores",
+    "role": "clinical",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0135",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Recommend enteral/oral nutrition timing",
+    "role": "clinical",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0135",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Antibiotic decisions and drainage intervention timing in necrotizing pancreatitis",
+    "role": "clinical",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0173",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "other"
+    ],
+    "target": "Convert UK Biobank numerical laboratory profiles to free text then MIMIC-III-formatted structured values",
+    "role": "clinical",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0173",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Convert ICD-9-CM diagnostic codes to natural language then back to ICD-9-CM",
+    "role": "clinical",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0173",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Extract medications administered during ICU stay from discharge summaries and normalize ingredients",
+    "role": "clinical",
+    "dataset_ids": [
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0206",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Discharge survival status 0 alive/1 deceased",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0206",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Readmitted within 30 days after discharge",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0216",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Patient survival status in next hospital visit from preceding visits",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0216",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Whether next visit occurs within 15 days of prior visit/discharge",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0238",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "other"
+    ],
+    "target": "Assign first admitting care unit among9 operational departments",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0238",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Assign17 disease categories; diagnosis allows up to top3 predictions",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0238",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Select16 standardized treatment/service categories; up to top3 predictions",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0250",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "All ICD-9 medical codes in next/final admission, with explanatory reasoning",
+    "role": "primary_clinical_task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0299",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "In-hospital mortality probability; binary prediction at 0.50, confidence, three contributing clinical factors, brief reasoning",
+    "role": "primary_clinical_task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0300",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "discharge_summarization"
+    ],
+    "target": "Clinically coherent discharge summaries from EHR narratives",
+    "role": "primary_clinical_task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0300",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Supported/Not Supported verdict for atomic entity–attribute–value–time claims; contradiction and omission detection",
+    "role": "auxiliary_factuality_evaluation",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "J0345",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary mortality at the next visit",
+    "role": "primary_clinical_task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0345",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary hospital readmission outcome",
+    "role": "primary_clinical_task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0345",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Specific medications as multilabel output, without ATC grouping",
+    "role": "primary_clinical_task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0450",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "discharge_summarization"
+    ],
+    "target": "Clinical/discharge summaries focusing on diagnoses and treatments",
+    "role": "primary clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0519",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary sepsis risk within next six hours with clinical reasoning trace",
+    "role": "primary clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0531",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Multiple ICU admissions within same hospital stay versus one admission; explicit labels or generated label plus rationale",
+    "role": "primary clinical task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0911",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Classify patient as CHF or UTI from multimodal clinical attributes",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3",
+      "D4"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "J0911",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "other"
+    ],
+    "target": "Generate natural-language guideline-grounded explanation of assigned diagnosis",
+    "role": "evaluated supporting output",
+    "dataset_ids": [
+      "D1",
+      "D6"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0007",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Predict last-visit fine-grained drug-name medication set and disease-specific subrecommendations",
+    "role": "primary",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0007",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Associate diagnoses with procedures/lab events and medications for weak supervision",
+    "role": "auxiliary preprocessing; not independent diagnosis prediction endpoint",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "SC0096",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary expired/survived hospital outcome; framed as ICU mortality.",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0116",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Binary MIMIC-III diagnostic classification and evidence-grounded clinical recommendations; exact diagnostic target unnamed.",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0116",
+    "task_id": "T2",
+    "included_in_task_counts": false,
+    "categories": [
+      "other"
+    ],
+    "target": "Research abstract comprehension and multiple-choice medical knowledge.",
+    "role": "auxiliary non-patient benchmark",
+    "dataset_ids": [
+      "D2",
+      "D3"
+    ],
+    "reason": "Auxiliary preprocessing, upstream conventional score, evaluation-only output or non-patient benchmark"
+  },
+  {
+    "study_id": "SC0116",
+    "task_id": "T3",
+    "included_in_task_counts": true,
+    "categories": [
+      "diagnosis_phenotyping"
+    ],
+    "target": "Alzheimer disease detection from transcripts and acoustic biomarkers.",
+    "role": "primary",
+    "dataset_ids": [
+      "D4"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0159",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "other"
+    ],
+    "target": "Score each patient-diagnosis/medication/procedure triple in [0,1] using current visit, prior visits and medical knowledge; semantic-replacement consistency evaluated.",
+    "role": "primary methodological task",
+    "dataset_ids": [
+      "D1",
+      "D2",
+      "D3"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0159",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Survival of final visit using prior-visit clinical triples; confidence filtering/prompting variations.",
+    "role": "downstream clinical evaluation",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0176",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Hourly sepsis/non-sepsis probabilities; compare 4h, 6h and 12h before onset. Summarization is a feature-generation component, with illustrative length prompts.",
+    "role": "primary",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0198",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "treatment_recommendation"
+    ],
+    "target": "Ranked ICD-9-CM procedure sequence, justification and confidence; compared at chapter, two-digit and four-digit levels.",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0230",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Predict diseases at visit T+1, with frequent/emerging subanalyses.",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0230",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Binary prediction of heart failure diagnosis at visit T+1.",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1",
+      "D2"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0376",
+    "task_id": "T1",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Predict ICU readmission after discharge from current ICU visit within same hospitalization.",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  },
+  {
+    "study_id": "SC0376",
+    "task_id": "T2",
+    "included_in_task_counts": true,
+    "categories": [
+      "outcome_prediction"
+    ],
+    "target": "Classify total ICU LOS as low 2–4 days, medium 4–7 days, or high ≥7 days.",
+    "role": "eligible clinical task",
+    "dataset_ids": [
+      "D1"
+    ],
+    "reason": "Clinical target/output"
+  }
+]

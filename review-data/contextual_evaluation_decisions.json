@@ -1,0 +1,4 @@
+{
+  "J0056_E01": "Light upstream GNN/attribution stage; llm_role explicitly upstream non-LLM predictor; LLM clinical decision and human explanation arms retained separately.",
+  "J0056_E02": "Complete upstream GNN/attribution stage; no LLM in this component experiment."
+}

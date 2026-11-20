@@ -1,0 +1,96 @@
+source_number,article_id,short_citation,title_with_citation,clinical_datasets,population,primary_cohort_counts,tasks,input_modality,generative_families,doi_or_source_link
+1,J0002,"Gao et al., 2026",Gao et al. [1] Automated Brief Hospital Course Summarization in Cardiac Surgery Using a Lightweight Large Language Model–Based Framework: Development and Evaluation Study on the Medical Information Mart for Intensive Care-IV,MIMIC-IV,Age: not reported; conditions: coronary artery bypass graft surgery; lung lobectomy,4538 hospital admissions; 4538 discharge summaries,Discharge summarization,Both,"GPT;
+Llama;
+Mistral;
+Qwen",https://doi.org/10.2196/90870
+2,J0003,"He et al., 2026",He et al. [2] ProMem-agent: Procedural memory-augmented large language model agents for clinical trajectory reasoning,HiRID; MIMIC-III; MIMIC-IV; eICU,Age: adult; conditions: general adult critical illness,23612 unique patients; 31845 icu stays,Outcome prediction,Structured only,GPT,https://doi.org/10.1016/j.ijmedinf.2026.106727
+3,J0009,"L. Zhang et al., 2026",Zhang et al. [3] On-premise medical AI agents for reliable clinical decision-making,MIMIC-IV; VivaBench case reports,Age: mixed; conditions: appendicitis; cholecystitis; diverticulitis; pancreatitis; pneumonia; pulmonary embolism; urinary tract infection; broad multispecialty VivaBench conditions,No comparable primary count selected; see detailed extraction,Diagnosis or phenotyping,Both,"GLM;
+GPT;
+GPT-OSS;
+Gemma;
+Qwen",https://doi.org/10.1038/s41591-026-04609-x
+4,J0012,"Dorr et al., 2026",Dorr et al. [4] Optimizing generative artificial intelligence for clinical summarization: a blinded comparison study of automated versus human care planning synopses,MIMIC-III,Age: not reported; conditions: multiple chronic conditions; hypertension; ischemic heart disease; diabetes; cancer,64 unique patients,Discharge summarization,Both,Llama,https://doi.org/10.1093/jamiaopen/ooag175
+5,J0015,"Fu et al., 2026",Fu et al. [5] GuardMLLM: Overconfidence-Aware Dynamic Fusion for Early Outcome Prediction,MIMIC-IV; eICU,Age: not reported; conditions: not reported,No comparable primary count selected; see detailed extraction,Outcome prediction,Both,"BioMedLM;
+Llama;
+Qwen",https://doi.org/10.1109/jbhi.2026.3727471
+6,J0020,"W. Shang et al., 2026",Shang et al. [6] A large language model-driven multidisciplinary AI agent system predicts delirium in emergency critically ill patients,MIMIC-IV; PKU cohorts; eICU,Age: adult; conditions: emergency critical illness; delirium risk,4429 unique patients,Outcome prediction,Structured only,"DeepSeek;
+Qwen",https://doi.org/10.1016/j.xcrm.2026.102986
+7,J0035,"T. Shang et al., 2026",Shang et al. [7] DynamiCare: A Dynamic Multi-Agent Framework for Interactive and Open-Ended Medical Decision-Making,MIMIC-III,"Age: not reported; conditions: Broad ICD-9 disease groups including circulatory, endocrine/metabolic, respiratory, neoplasms, and other categories",500 hospital admissions,Diagnosis or phenotyping,Both,GPT,Not reported in extraction
+8,J0036,"R. Wang et al., 2026",Wang et al. [8] Knowledge Graph Augmented Large Language Models for Disease Prediction,CRADLE; MIMIC-III,Age: not reported; conditions: Ten MIMIC-III disease labels; Type 2 diabetes with cardiovascular event outcomes,No comparable primary count selected; see detailed extraction,Outcome prediction,Structured only,"Gemma;
+Llama",Not reported in extraction
+9,J0042,"C. Wang et al., 2026",Wang et al. [9] Integrating Electronic Health Records and Large Language Models for Coarse-to-Fine Hybrid Disease Prediction,BFH; MIMIC-IV; eICU,"Age: unclear; conditions: Broad diagnosis-code disease prediction; Heart failure; BFH chronic coronary heart disease, hypertension and diabetes",8209 unique patients; 17594 encounters,Outcome prediction,Structured only,"DeepSeek;
+GLM;
+GPT;
+Gemini;
+Gemma;
+HuatuoGPT;
+Llama;
+Qwen",https://doi.org/10.34133/hds.0466
+10,J0045,"Meng et al., 2026",Meng et al. [10] HiRMD: A System for Mortality Prediction via LLM-Based High-Risk Information Extraction and Diagnosis,MIMIC-III; MIMIC-IV; eICU,Age: not reported; conditions: Broad critical-illness mortality risk; high-risk disease/treatment status across physiological systems,3034 unique patients,Outcome prediction,Structured only,GPT,https://doi.org/10.1109/tbme.2026.3697870
+11,J0056,"Ferraro et al., 2026",Ferraro et al. [11] MediCARE: Medical Collaborative Agents REasoning over Interpretable Heterogeneous Graphs,MIMIC-III,Age: not reported; conditions: heterogeneous clinical conditions; medication recommendation,4337 unique patients; 10954 encounters,Treatment recommendation,Both,GPT,https://doi.org/10.1016/j.artmed.2026.103444
+12,J0059,"Zhu et al., 2026",Zhu et al. [12] LELN: A Large Language Model-Dynamically Enhanced Learning Network for Patient Similarity Calculation,Chinese hospital cohort; MIMIC-III; SHHS,Age: not reported; conditions: cerebrovascular diseases in Chinese cohort; heterogeneous initial diagnoses in MIMIC-III,398 unique patients,Diagnosis or phenotyping,Unclear,"DeepSeek;
+GLM;
+Llama",https://doi.org/10.1109/jbhi.2026.3691375
+13,J0060,"Fang et al., 2026",Fang et al. [13] Combining generative large language models and pretrained language models for predicting acute respiratory distress syndrome progression,Anhui ICU cohort; MIMIC-IV; eICU,Age: adult; conditions: subsequent ARDS onset; non-ARDS comparison group,335 records,Outcome prediction,Structured only,GLM,https://doi.org/10.1007/s11517-026-03588-y
+14,J0061,"Priyadarshana et al., 2026",Priyadarshana et al. [14] MediPhen: Prompt-Based LLM Reasoning with Synthesized Multimodal Clinical Knowledge for Zero-Shot Multi-morbidity Phenotyping,MIMIC-III; MIMIC-IV,Age: not reported; conditions: 25 co-occurring disease phenotypes; essential hypertension; chronic kidney disease; congestive heart failure; acute/unspecified renal failure; cardiac dysrhythmias,32578 unique patients; 41902 hospital admissions; 43967 discharge summaries,Diagnosis or phenotyping,Both,"Gemma;
+Llama;
+MedAlpaca",https://doi.org/10.1109/jbhi.2026.3689887
+15,J0062,"Yeh et al., 2026",Yeh et al. [15] Enhancing large language model clinical support information with machine learning risk and explainability: a feasibility study,MIMIC-IV,Age: not reported; conditions: critically ill ICU population; ICU mortality risk,No comparable primary count selected; see detailed extraction,Other patient-specific output; Treatment recommendation,Structured only,"GPT;
+GPT-OSS;
+Grok;
+Llama",https://doi.org/10.1186/s40635-026-00900-w
+16,J0073,"Ho et al., 2026",Ho et al. [16] DILIConsult : A Multi‐Agent Large Language Model Framework for Evaluating Drug‐Induced Liver Injury in ICU Settings,MIMIC-IV,Age: not reported; conditions: suspected drug-induced liver injury,50 icu stays,Diagnosis or phenotyping; Treatment recommendation,Structured only,GPT,https://doi.org/10.1002/phar.70131
+17,J0077,"Shi et al., 2024",Shi et al. [17] AKI-Detector: A Multi-Agent Framework by Integrating Machine Learning and Large Language Models for Early Prediction of Acute Kidney Injury in ICU,MIMIC-IV,Age: adult; conditions: ICU-acquired acute kidney injury; non-AKI controls,26327 examples,Outcome prediction,Structured only,DeepSeek,Not reported in extraction
+18,J0093,"Dao et al., 2026",Dao et al. [18] CURENet: combining unified representations for efficient chronic disease prediction,FEMH; MIMIC-III,Age: not reported; conditions: MIMIC-III: uncomplicated hypertension; arrhythmias; diabetes without chronic complications; valvular disease; congestive heart failure; chronic pulmonary disease; fluid/electrolyte disorders; other neurological; renal failure; complicated hypertension; FEMH: hypertension; diabetes; heart disease; cancer; asthma; liver disease; hyperlipidemia; cerebrovascular disease; kidney disease; lung disease,9557 examples,Outcome prediction,Both,"Llama;
+Mistral",https://doi.org/10.1007/s13755-025-00396-w
+19,J0095,"Lee et al., 2025",Lee et al. [19] A prompt framework for enhancing LLM-based explainability of medical machine learning models: an intensive care unit application,MIMIC-III,Age: adult; conditions: invasive mechanical ventilation; extubation attempt; extubation failure/reintubation,747 extubation events,Other patient-specific output; Treatment recommendation,Structured only,GPT,https://doi.org/10.1186/s12911-025-03239-6
+20,J0102,"Contreras et al., 2025",Contreras et al. [20] A large language model for delirium prediction in the intensive care unit using structured electronic health records,MIMIC-IV; UFH; eICU,Age: adult; conditions: Incident delirium,26760 icu stays; 26760 unique patients,Outcome prediction,Structured only,"Llama;
+Meditron",https://doi.org/10.1038/s41598-025-22634-7
+21,J0104,"Zhao et al., 2025",Zhao et al. [21] Integrating clinical guidelines with large language models for improved sepsis mortality prediction,MIMIC-IV,Age: adult; conditions: sepsis; septic shock,24237 unique patients,Outcome prediction,Structured only,"DeepSeek;
+Qwen",https://doi.org/10.1177/14604582251387649
+22,J0113,"Wu et al., 2025",Wu et al. [22] Towards Smarter Clinical Predictions: Foundation Models for Integrating Multi-Source Domain Knowledge in EHRs,MIMIC-III; MIMIC-IV,Age: not reported; conditions: Complex conditions requiring medication combinations,5208 unique patients,Treatment recommendation,Structured only,Vicuna,https://doi.org/10.1109/jbhi.2025.3609064
+23,J0132,"Yang et al., 2025",Yang et al. [23] Leveraging heterogeneous tabular of EHRs with prompt learning for clinical prediction,CECMed; eICU,Age: not reported; conditions: coronary heart disease; hypertension; diabetes; COPD; osteoporosis,3034 hospital admissions,Diagnosis or phenotyping; Outcome prediction,Both,"GLM;
+Llama;
+Qwen",https://doi.org/10.1016/j.jbi.2025.104868
+24,J0135,"Ucdal et al., 2025",Ucdal et al. [24] Evaluating the Role of Artificial Intelligence in Making Clinical Decisions for Treating Acute Pancreatitis,MIMIC-III,Age: not reported; conditions: acute pancreatitis; necrotizing pancreatitis,512 unique patients,Diagnosis or phenotyping; Treatment recommendation,Both,Gemini,https://doi.org/10.3390/jcm14124347
+25,J0173,"Yoon et al., 2024",Yoon et al. [25] Redefining Health Care Data Interoperability: Empirical Exploration of Large Language Models in Information Exchange,MIMIC-III; UK Biobank,Age: not reported; conditions: not reported,1000 unique patients,Diagnosis or phenotyping; Other patient-specific output,Both,GPT,https://doi.org/10.2196/56614
+26,J0206,"Zhu et al., 2024",Zhu et al. [26] EMERGE: Enhancing Multimodal Electronic Health Records Predictive Modeling with Retrieval-Augmented Generation,MIMIC-III; MIMIC-IV,Age: not reported; conditions: Unselected ICU outcome-prediction cohort; no disease-specific selection reported,No comparable primary count selected; see detailed extraction,Outcome prediction,Both,"DeepSeek;
+Qwen",https://doi.org/10.1145/3627673.3679582
+27,J0216,"Jiang et al., 2025",Jiang et al. [27] Reasoning-Enhanced Healthcare Predictions with Knowledge Graph Community Retrieval,MIMIC-III; MIMIC-IV,Age: not reported; conditions: not reported,9717 unique patients,Outcome prediction,Structured only,"Claude;
+DeepSeek;
+Mistral;
+Qwen",Not reported in extraction
+28,J0238,"Z. Chen et al., 2026",Chen et al. [28] MAP: evaluation and multi-agent enhancement of large language models for inpatient pathways,MIMIC-IV; Zhongshan Hospital,"Age: not reported; conditions: 17 broad categories: symptoms/findings, pregnancy/childbirth, neoplasms, mental/behavioral, injury/poisoning, endocrine/metabolic, skin, respiratory, neurologic/sense, musculoskeletal/connective, genitourinary, digestive, circulatory, blood/immune, congenital, infectious",51274 unique patients; 51274 hospital admissions,Diagnosis or phenotyping; Other patient-specific output; Treatment recommendation,Both,"Clinical Camel;
+HuatuoGPT;
+InternLM;
+Llama;
+Meditron",https://doi.org/10.1038/s44401-026-00085-0
+29,J0250,"Han et al., 2025",Han et al. [29] No Black Boxes: Interpretable and Interactable Predictive Healthcare with Knowledge-Enhanced Agentic Causal Discovery,MIMIC-III; MIMIC-IV,"Age: not reported; conditions: All diagnosis codes; repeated-visit cohort, not condition-restricted",No comparable primary count selected; see detailed extraction,Diagnosis or phenotyping,Structured only,GPT,https://doi.org/10.18653/v1/2025.findings-emnlp.1271
+30,J0299,"G. Zhang et al., 2026",Zhang et al. [30] Improving fairness of large language model-based ICU mortality prediction via case-based prompting,MIMIC-IV,Age: adult; conditions: General adult ICU cohort,45153 unique patients,Outcome prediction,Structured only,"Mistral;
+Qwen",https://doi.org/10.1016/j.artmed.2026.103541
+31,J0300,"Zeba et al., 2026",Zeba et al. [31] Mitigating hallucinations in healthcare LLMs with granular fact-checking and domain-specific adaptation,MIMIC-III,"Age: not reported; conditions: Broad diagnoses: respiratory, cardiovascular, infectious, metabolic, neurological and other critical-care conditions",26104 discharge summaries,Discharge summarization,Both,Llama,https://doi.org/10.1016/j.eswa.2026.132966
+32,J0345,"Moghaddam et al., 2026",Moghaddam et al. [32] RePrompT: Recurrent Prompt Tuning for Integrating Structured EHR Encoders with Large Language Models,MIMIC-III; MIMIC-IV,Age: not reported; conditions: Unrestricted diagnosis/procedure/medication histories; mortality/readmission and medication recommendation tasks,No comparable primary count selected; see detailed extraction,Outcome prediction; Treatment recommendation,Both,"DeepSeek;
+GPT;
+Llama",https://doi.org/10.18653/v1/2026.findings-acl.1334
+33,J0450,"Behera and Bissoyi, 2025",Behera et al. [33] A Framework for Secure and Interoperable Clinical Summarization Using the Model Context Protocol: Integrating MIMIC-III and FHIR with TinyLlama,MIMIC-III,Age: not reported; conditions: respiratory failure; heart failure; diabetes; hypertension,No comparable primary count selected; see detailed extraction,Discharge summarization,Both,"GPT;
+Llama",https://doi.org/10.62762/ngcst.2025.784852
+34,J0519,"Y. Chen et al., 2026",Chen et al. [34] Causal-chain-aligned lightweight LLM for interpretable early sepsis warning,MIMIC-IV; PhysioNet Challenge 2019,Age: not reported; conditions: sepsis; non-sepsis,No comparable primary count selected; see detailed extraction,Outcome prediction,Structured only,"Gemma;
+Llama;
+Qwen",https://doi.org/10.1186/s12911-026-03851-0
+35,J0531,"Helmy et al., 2025",Helmy et al. [35] Leveraging large language models to predict unplanned ICU readmissions from electronic health records,eICU,Age: not reported; conditions: Broad ICU diagnostic and history features; readmission/multiple admission subgroup,147418 unique patients,Outcome prediction,Structured only,Gemma,https://doi.org/10.1016/j.nlp.2025.100182
+36,J0911,"Bedi et al., 2025",Bedi et al. [36] XLR-KGDD: leveraging LLM and RAG for knowledge graph-based explainable disease diagnosis using multimodal clinical information,MIMIC-CXR; MIMIC-Eye; MIMIC-IV,Age: not reported; conditions: congestive heart failure; urinary tract infection,No comparable primary count selected; see detailed extraction,Diagnosis or phenotyping; Other patient-specific output,Both,"Llama;
+Mistral",https://doi.org/10.1007/s10115-025-02465-8
+37,SC0007,"Li et al., 2026",Li et al. [37] Medication mapping and diagnosis enhancement for fine-grained medication recommendation,MIMIC-III; MIMIC-IV; SMH,Age: not reported; conditions: Broad multiple-disease medication recommendation; no single condition restriction,No comparable primary count selected; see detailed extraction,Treatment recommendation,Both,"GPT;
+Llama;
+Qwen",https://doi.org/10.1016/j.ins.2026.123930
+38,SC0096,"Kasturi et al., 2026",Kasturi et al. [38] ICU mortality prediction using fine‑tuned large language models on structured clinical data,MIMIC-III,Age: adult; conditions: cardiac disorders; neurological disorders,2292 unique patients,Outcome prediction,Structured only,Llama,https://doi.org/10.1117/12.3085869
+39,SC0116,"Kapadia et al., 2026",Kapadia et al. [39] An Agentic Hybrid LLM–RAG Framework for Explainable Clinical Decision Support,ADReSSo; MIMIC-III,Age: not reported; conditions: Alzheimer disease,No comparable primary count selected; see detailed extraction,Diagnosis or phenotyping,Both,"GPT;
+PaLM",https://doi.org/10.5220/0014459100004052
+40,SC0159,"Xin et al., 2026",Xin et al. [40] JudgEHR: LLM-Guided Cohort Inference for Clinical Decision Confidence Estimation,MIMIC-III,Age: not reported; conditions: not reported,35707 unique patients; 44399 encounters,Other patient-specific output; Outcome prediction,Structured only,GPT,https://doi.org/10.1109/icdh72779.2026.00046
+41,SC0176,"Haq et al., 2026",Haq et al. [41] SepsisSense: LLM-Aided Summarization of Clinical Notes for Early Sepsis Prediction Integrated With Structured Data,MIMIC-III,Age: adult; conditions: sepsis; suspected infection,No comparable primary count selected; see detailed extraction,Outcome prediction,Both,GPT,https://doi.org/10.1109/access.2026.3671794
+42,SC0198,"Zhong et al., 2025",Zhong et al. [42] Multi-Agent LLM Reasoning for Clinical Procedure Sequencing from High-Granularity EHR Data,MIMIC-III,"Age: mixed; conditions: Diverse clinical conditions; diagnosis chapters include infectious, endocrine/metabolic, blood, mental, circulatory, respiratory, digestive, genitourinary, musculoskeletal, perinatal, symptoms and injury.",1000 unique patients,Treatment recommendation,Structured only,"GPT;
+Gemma;
+Llama;
+Qwen",https://doi.org/10.1145/3765612.3767238
+43,SC0230,"Kang et al., 2025",Kang et al. [43] LLM-DG: Leveraging large language model for enhanced disease prediction via inter-patient and intra-patient modeling,MIMIC-III; MIMIC-IV,Age: not reported; conditions: General disease diagnosis trajectories; heart failure target; frequent versus emerging disease analyses.,7493 unique patients,Outcome prediction,Both,Unspecified,https://doi.org/10.1016/j.inffus.2025.103145
+44,SC0376,"Choudhuri et al., 2024",Choudhuri et al. [44] Summarizing Clinical Notes using LLMs for ICU Bounceback and Length-of-Stay Prediction,MIMIC-III,Age: not reported; conditions: not reported,2840 icu stays,Outcome prediction,Both,Llama,https://doi.org/10.1109/icdmw65004.2024.00118

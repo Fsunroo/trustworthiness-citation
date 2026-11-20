@@ -1,0 +1,24 @@
+stage,category,n
+source_occurrences,PubMed,183
+source_occurrences,Scopus,394
+source_occurrences,Web of Science,185
+source_occurrences,Google Scholar,860
+source_occurrences,arXiv,242
+selection,Manually identified,8
+selection,Identified records,1872
+selection,Duplicates removed,686
+selection,Records screened,1186
+selection,Excluded at screening,855
+selection,Reports sought,331
+selection,Reports not retrieved,0
+selection,Reports assessed,331
+selection,Full-text exclusions,287
+selection,Included reports,44
+full_text_exclusion,Input modality,83
+full_text_exclusion,ICU cohort not established,34
+full_text_exclusion,No generative LLM experiment,34
+full_text_exclusion,Task not clinical,42
+full_text_exclusion,Ineligible patient-data use,22
+full_text_exclusion,Non-ICU setting,32
+full_text_exclusion,Ineligible report type,22
+full_text_exclusion,No qualifying public dataset,18

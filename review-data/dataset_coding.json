@@ -1,0 +1,2015 @@
+[
+  {
+    "study_id": "J0002",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "retrieval",
+      "fine_tuning",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0002",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV-Demo",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "illustration"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0003",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "development; memory construction; internal test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0003",
+    "dataset_id": "D2",
+    "name": "eICU",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0003",
+    "dataset_id": "D3",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0003",
+    "dataset_id": "D4",
+    "name": "HiRID",
+    "canonical_name": "HiRID",
+    "clinical_source_key": "HiRID",
+    "analysis_label": "HiRID",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0009",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "parent clinical source"
+    ],
+    "version": "2.2",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0009",
+    "dataset_id": "D2",
+    "name": "MIRA-v2",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "primary benchmark evaluation"
+    ],
+    "version": "v2",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0009",
+    "dataset_id": "D3",
+    "name": "Clinical Decision Making (CDM)",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "cross-benchmark validation"
+    ],
+    "version": "MIMIC-IV-Ext-CDM release1.0",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0009",
+    "dataset_id": "D4",
+    "name": "VivaBench",
+    "canonical_name": "other",
+    "clinical_source_key": "PubMed_case_reports",
+    "analysis_label": "VivaBench case reports",
+    "empirical_clinical_source": true,
+    "roles": [
+      "independent external benchmark evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0009",
+    "dataset_id": "D5",
+    "name": "UMLS clinical terminology",
+    "canonical_name": "other",
+    "clinical_source_key": "UMLS",
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "evaluation concept linking"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0012",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "prompt_development",
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0012",
+    "dataset_id": "D2",
+    "name": "CLIP",
+    "canonical_name": "CLIP",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "cohort_selection"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0015",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing"
+    ],
+    "version": "3.1",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0015",
+    "dataset_id": "D2",
+    "name": "eICU",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0020",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "internal_validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0020",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV-ED",
+    "canonical_name": "MIMIC-IV-ED",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "cohort_selection"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0020",
+    "dataset_id": "D3",
+    "name": "PKU institutional cohort",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "PKU",
+    "analysis_label": "PKU cohorts",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external_validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0020",
+    "dataset_id": "D4",
+    "name": "eICU",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external_validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0020",
+    "dataset_id": "D5",
+    "name": "MedEvidenceAgent knowledge base",
+    "canonical_name": "MedEvidenceAgent knowledge base",
+    "clinical_source_key": "medical_literature",
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0035",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "source EHR",
+      "benchmark construction"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0035",
+    "dataset_id": "D2",
+    "name": "MIMIC-Patient",
+    "canonical_name": "MIMIC-Patient",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "test",
+      "derived clinical benchmark"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0035",
+    "dataset_id": "D3",
+    "name": "MEDIQ iCraftMD",
+    "canonical_name": "iCraftMD",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "auxiliary benchmark test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0035",
+    "dataset_id": "D4",
+    "name": "MEDIQ iMedQA",
+    "canonical_name": "iMedQA",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "auxiliary benchmark test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0036",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0036",
+    "dataset_id": "D2",
+    "name": "Project CRADLE (Emory Clinical Research Analytics Data Lake Environment)",
+    "canonical_name": "CRADLE",
+    "clinical_source_key": "CRADLE",
+    "analysis_label": "CRADLE",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external_test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0036",
+    "dataset_id": "D3",
+    "name": "PrimeKG",
+    "canonical_name": "PrimeKG",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "external biomedical knowledge",
+      "CoT supervision grounding"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0036",
+    "dataset_id": "D4",
+    "name": "KG-guided CoT supervision corpus",
+    "canonical_name": "synthetic",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "fine_tuning"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0042",
+    "dataset_id": "D1",
+    "name": "eICU Collaborative Research Database",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "test"
+    ],
+    "version": "2.0",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0042",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "test"
+    ],
+    "version": "2.2",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0042",
+    "dataset_id": "D3",
+    "name": "Beijing Friendship Hospital (BFH)",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "BFH",
+    "analysis_label": "BFH",
+    "empirical_clinical_source": true,
+    "roles": [
+      "additional clinical dataset evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0042",
+    "dataset_id": "D4",
+    "name": "Public code-to-text mapping resources (Wikipedia ICD-9 example)",
+    "canonical_name": "other",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "diagnosis-code textual descriptions"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0045",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "development",
+      "cross_validation",
+      "holdout_test"
+    ],
+    "version": "1.4",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0045",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "development",
+      "cross_validation",
+      "holdout_test"
+    ],
+    "version": "3.1",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0045",
+    "dataset_id": "D3",
+    "name": "eICU Collaborative Research Database",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "development",
+      "cross_validation",
+      "holdout_test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0056",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "evaluation"
+    ],
+    "version": "1.4",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0056",
+    "dataset_id": "D2",
+    "name": "DRKG",
+    "canonical_name": "DRKG",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge enrichment"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0056",
+    "dataset_id": "D3",
+    "name": "SympGAN",
+    "canonical_name": "SympGAN",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge enrichment"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0056",
+    "dataset_id": "D4",
+    "name": "UMLS",
+    "canonical_name": "UMLS",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "terminology/entity linking"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0059",
+    "dataset_id": "D1",
+    "name": "Collaborating hospitals Chinese EMR dataset",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "J0059_Chinese_hospital_cohort",
+    "analysis_label": "Chinese hospital cohort",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "internal evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0059",
+    "dataset_id": "D2",
+    "name": "MIMIC-III selected clinical records",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external validation as author-described"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0059",
+    "dataset_id": "D3",
+    "name": "Hospital physician-annotated medical event set",
+    "canonical_name": "other",
+    "clinical_source_key": "J0059_Chinese_hospital_cohort",
+    "analysis_label": "Chinese hospital cohort",
+    "empirical_clinical_source": true,
+    "roles": [
+      "LLM instruction fine-tuning"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0059",
+    "dataset_id": "D4",
+    "name": "Hospital and Baidu Baike entity descriptions",
+    "canonical_name": "other",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "LLM instruction fine-tuning",
+      "static knowledge comparison"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0059",
+    "dataset_id": "D5",
+    "name": "Hospital expert key factor set",
+    "canonical_name": "other",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "clinical prior guidance"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0059",
+    "dataset_id": "D6",
+    "name": "Sleep Heart Health Study (SHHS) Visit 2",
+    "canonical_name": "SHHS",
+    "clinical_source_key": "SHHS",
+    "analysis_label": "SHHS",
+    "empirical_clinical_source": true,
+    "roles": [
+      "additional validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0060",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0060",
+    "dataset_id": "D2",
+    "name": "eICU",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0060",
+    "dataset_id": "D3",
+    "name": "First Affiliated Hospital of Anhui Medical University real-world ICU dataset",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "Anhui_FirstAffiliated_ICU_2025",
+    "analysis_label": "Anhui ICU cohort",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "phenotyping benchmark",
+      "baseline training",
+      "held-out evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "phenotyping benchmark",
+      "baseline training",
+      "held-out evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D3",
+    "name": "MIMIC-IV-Note",
+    "canonical_name": "MIMIC-IV-Note",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "clinical-text input"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D4",
+    "name": "Expert-curated clinical knowledgebase / UMLS manual verbalizer",
+    "canonical_name": "UMLS",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "clinical knowledge/verbalizer"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D5",
+    "name": "MedMentions",
+    "canonical_name": "MedMentions",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "upstream MedCAT component training"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D6",
+    "name": "n2c2 corpus",
+    "canonical_name": "n2c2",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": null,
+    "roles": [
+      "GatorTron relation-extraction fine-tuning"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0061",
+    "dataset_id": "D7",
+    "name": "SNOMED CT",
+    "canonical_name": "SNOMED CT",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "entity normalization terminology"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0062",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "ML development",
+      "validation",
+      "testing",
+      "LLM evaluation"
+    ],
+    "version": "3.1",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0073",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "case selection",
+      "prompt development",
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0073",
+    "dataset_id": "D2",
+    "name": "LiverTox",
+    "canonical_name": "LiverTox",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "external knowledge reference",
+      "auxiliary extraction evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0077",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "held-out evaluation",
+      "LLM framework test subset"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0077",
+    "dataset_id": "D2",
+    "name": "Curated AKI medical knowledge base",
+    "canonical_name": "Curated AKI medical knowledge base",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval corpus"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0093",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0093",
+    "dataset_id": "D2",
+    "name": "Far Eastern Memorial Hospital (FEMH)",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "FEMH",
+    "analysis_label": "FEMH",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0095",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "underlying prediction model",
+      "SHAP input generation",
+      "evaluation cases"
+    ],
+    "version": "1.4",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0095",
+    "dataset_id": "D2",
+    "name": "Perturbed MIMIC-III-derived evaluation examples",
+    "canonical_name": "synthetic",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "LLM evaluation"
+    ],
+    "version": null,
+    "status": "derived"
+  },
+  {
+    "study_id": "J0102",
+    "dataset_id": "D1",
+    "name": "University of Florida Integrated Data Repository",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "UFH",
+    "analysis_label": "UFH",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "tuning",
+      "internal_validation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0102",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external_validation"
+    ],
+    "version": "2.2",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0102",
+    "dataset_id": "D3",
+    "name": "eICU",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external_validation"
+    ],
+    "version": "2.0",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0104",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "test"
+    ],
+    "version": "2.2",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0104",
+    "dataset_id": "D2",
+    "name": "2021 adult Surviving Sepsis Campaign guideline",
+    "canonical_name": "Surviving Sepsis Campaign",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge_graph",
+      "guideline_annotations"
+    ],
+    "version": "2021",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0113",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0113",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0113",
+    "dataset_id": "D3",
+    "name": "ICD",
+    "canonical_name": "ICD",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge_retrieval",
+      "semantic_augmentation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0113",
+    "dataset_id": "D4",
+    "name": "ATC",
+    "canonical_name": "ATC",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge_retrieval",
+      "semantic_augmentation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0113",
+    "dataset_id": "D5",
+    "name": "Wikipedia",
+    "canonical_name": "Wikipedia",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge_retrieval",
+      "semantic_augmentation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0113",
+    "dataset_id": "D6",
+    "name": "DrugBank",
+    "canonical_name": "DrugBank",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge_retrieval",
+      "semantic_augmentation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0132",
+    "dataset_id": "D1",
+    "name": "China Elderly Comorbidity Medical Database (CECMed)",
+    "canonical_name": "CECMed",
+    "clinical_source_key": "CECMed",
+    "analysis_label": "CECMed",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0132",
+    "dataset_id": "D2",
+    "name": "Philips eICU Collaborative Research Dataset (eICU-CRD)",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0135",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0173",
+    "dataset_id": "D1",
+    "name": "UK Biobank",
+    "canonical_name": "UK Biobank",
+    "clinical_source_key": "UK Biobank",
+    "analysis_label": "UK Biobank",
+    "empirical_clinical_source": true,
+    "roles": [
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0173",
+    "dataset_id": "D2",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0173",
+    "dataset_id": "D3",
+    "name": "OHDSI ATHENA diagnostic code mapping table",
+    "canonical_name": "ATHENA",
+    "clinical_source_key": "ATHENA",
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "code_mapping_comparator"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0206",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0206",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0206",
+    "dataset_id": "D3",
+    "name": "PrimeKG",
+    "canonical_name": "PrimeKG",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_knowledge_base"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0216",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "validation",
+      "test",
+      "similar_case_reference"
+    ],
+    "version": "1.4",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0216",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "validation",
+      "test",
+      "similar_case_reference"
+    ],
+    "version": "2.0",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0216",
+    "dataset_id": "D3",
+    "name": "UMLS",
+    "canonical_name": "UMLS",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_knowledge_base"
+    ],
+    "version": "2024AA Full UMLS Release Files (Full Release)",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0216",
+    "dataset_id": "D4",
+    "name": "PubMed Abstracts",
+    "canonical_name": "PubMed",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_knowledge_base"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0216",
+    "dataset_id": "D5",
+    "name": "Claude-generated medical concept KG and reasoning chains",
+    "canonical_name": "synthetic",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "knowledge_augmentation",
+      "distillation_training"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0216",
+    "dataset_id": "D6",
+    "name": "HALO synthetic MIMIC-III",
+    "canonical_name": "synthetic",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "illustrative_case_study"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0238",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV hospital and ICU modules",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "benchmark_construction",
+      "train",
+      "test"
+    ],
+    "version": "2.2 (Methods)",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0238",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV-Note",
+    "canonical_name": "MIMIC-IV-Note",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "benchmark_construction",
+      "train",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0238",
+    "dataset_id": "D3",
+    "name": "IPDS (Inpatient Pathway Decision Support)",
+    "canonical_name": "IPDS",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "test",
+      "retrieval_reference_cases"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0238",
+    "dataset_id": "D4",
+    "name": "Zhongshan Hospital Fudan University inpatient cohort",
+    "canonical_name": "institutional cohort",
+    "clinical_source_key": "Zhongshan_Fudan",
+    "analysis_label": "Zhongshan Hospital",
+    "empirical_clinical_source": true,
+    "roles": [
+      "external_test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0238",
+    "dataset_id": "D5",
+    "name": "MAP knowledge base: real clinical cases and authoritative guidelines",
+    "canonical_name": "clinical case/guideline knowledge base",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_knowledge_base"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0250",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training_data_statistics",
+      "train",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0250",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training_data_statistics",
+      "train",
+      "validation",
+      "test"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0250",
+    "dataset_id": "D3",
+    "name": "Wikipedia disease pages",
+    "canonical_name": "Wikipedia disease pages",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_corpus"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0299",
+    "dataset_id": "D1",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "test",
+      "retrieval_repository_source"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0300",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "fine_tuning",
+      "validation",
+      "test",
+      "fact_checking_evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0300",
+    "dataset_id": "D2",
+    "name": "BioPortal biomedical ontologies",
+    "canonical_name": "BioPortal biomedical ontologies",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "entity_normalization_knowledge"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0345",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "test",
+      "summary_synthesis_source"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0345",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "train",
+      "test",
+      "summary_synthesis_source"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0450",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training for fine-tuned baselines",
+      "testing",
+      "patient-record retrieval"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0450",
+    "dataset_id": "D2",
+    "name": "HAPI FHIR public server",
+    "canonical_name": "HAPI FHIR public server",
+    "clinical_source_key": "HAPI-FHIR",
+    "analysis_label": null,
+    "empirical_clinical_source": null,
+    "roles": [
+      "testing",
+      "patient-resource retrieval"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0519",
+    "dataset_id": "D1",
+    "name": "PhysioNet/CinC Challenge 2019",
+    "canonical_name": "PhysioNet/CinC Challenge 2019",
+    "clinical_source_key": "PhysioNet/CinC Challenge 2019",
+    "analysis_label": "PhysioNet Challenge 2019",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing",
+      "causal discovery"
+    ],
+    "version": "2019",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0519",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing",
+      "causal discovery"
+    ],
+    "version": "3.1",
+    "status": "reported"
+  },
+  {
+    "study_id": "J0519",
+    "dataset_id": "D3",
+    "name": "DeepSeek-distilled reasoning traces",
+    "canonical_name": "synthetic",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "supervised fine-tuning",
+      "reasoning distillation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0531",
+    "dataset_id": "D1",
+    "name": "eICU",
+    "canonical_name": "eICU",
+    "clinical_source_key": "eICU",
+    "analysis_label": "eICU",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0911",
+    "dataset_id": "D1",
+    "name": "MIMIC-Eye",
+    "canonical_name": "MIMIC-Eye",
+    "clinical_source_key": "MIMIC-linked-Eye",
+    "analysis_label": "MIMIC-Eye",
+    "empirical_clinical_source": true,
+    "roles": [
+      "fine_tuning",
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0911",
+    "dataset_id": "D2",
+    "name": "MIMIC-CXR",
+    "canonical_name": "MIMIC-CXR",
+    "clinical_source_key": "MIMIC-linked-Eye",
+    "analysis_label": "MIMIC-CXR",
+    "empirical_clinical_source": true,
+    "roles": [
+      "multimodal component of MIMIC-Eye"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0911",
+    "dataset_id": "D3",
+    "name": "MIMIC-CXR-JPG",
+    "canonical_name": "MIMIC-CXR-JPG",
+    "clinical_source_key": "MIMIC-linked-Eye",
+    "analysis_label": "MIMIC-CXR",
+    "empirical_clinical_source": true,
+    "roles": [
+      "multimodal component of MIMIC-Eye"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0911",
+    "dataset_id": "D4",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-linked-Eye",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "multimodal component of MIMIC-Eye"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0911",
+    "dataset_id": "D5",
+    "name": "Healthcare Ontology",
+    "canonical_name": "Healthcare Ontology",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "KG schema/relations"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "J0911",
+    "dataset_id": "D6",
+    "name": "Clinical guidelines and other external documents",
+    "canonical_name": "Clinical guidelines and other external documents",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "RAG explanation retrieval"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0007",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing",
+      "LLM-assisted preprocessing"
+    ],
+    "version": "1.4",
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0007",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing",
+      "LLM-assisted preprocessing"
+    ],
+    "version": "3.1",
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0007",
+    "dataset_id": "D3",
+    "name": "SMH",
+    "canonical_name": "SMH",
+    "clinical_source_key": "SMH",
+    "analysis_label": "SMH",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing",
+      "LLM-assisted preprocessing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0007",
+    "dataset_id": "D4",
+    "name": "DDInter",
+    "canonical_name": "DDInter",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "external medication knowledge graph"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0096",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "fine_tuning",
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0116",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0116",
+    "dataset_id": "D2",
+    "name": "PubMedQA",
+    "canonical_name": "PubMedQA",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0116",
+    "dataset_id": "D3",
+    "name": "MedMCQA",
+    "canonical_name": "MedMCQA",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "evaluation_claimed"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0116",
+    "dataset_id": "D4",
+    "name": "ADReSSo 2021",
+    "canonical_name": "ADReSSo",
+    "clinical_source_key": "ADReSSo",
+    "analysis_label": "ADReSSo",
+    "empirical_clinical_source": true,
+    "roles": [
+      "evaluation"
+    ],
+    "version": "2021",
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0116",
+    "dataset_id": "D5",
+    "name": "Unnamed biomedical knowledge base",
+    "canonical_name": "other",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_corpus"
+    ],
+    "version": null,
+    "status": "derived"
+  },
+  {
+    "study_id": "SC0159",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "confidence_inference",
+      "evaluation",
+      "offline_prompt_parameter_tuning"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0159",
+    "dataset_id": "D2",
+    "name": "UMLS",
+    "canonical_name": "UMLS",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "background_knowledge",
+      "retrieval"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0159",
+    "dataset_id": "D3",
+    "name": "LLM-generated medical relations",
+    "canonical_name": "synthetic",
+    "clinical_source_key": null,
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "background_knowledge",
+      "retrieval"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0176",
+    "dataset_id": "D1",
+    "name": "MIMIC-III v1.4",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "development",
+      "evaluation"
+    ],
+    "version": "1.4",
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0198",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "evaluation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0198",
+    "dataset_id": "D2",
+    "name": "PubMed Central literature",
+    "canonical_name": "PubMed Central literature",
+    "clinical_source_key": "PMC_literature",
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_corpus"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0198",
+    "dataset_id": "D3",
+    "name": "UpToDate reference titles",
+    "canonical_name": "UpToDate reference titles",
+    "clinical_source_key": "UpToDate_references",
+    "analysis_label": null,
+    "empirical_clinical_source": false,
+    "roles": [
+      "retrieval_curation"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0230",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0230",
+    "dataset_id": "D2",
+    "name": "MIMIC-IV",
+    "canonical_name": "MIMIC-IV",
+    "clinical_source_key": "MIMIC-IV",
+    "analysis_label": "MIMIC-IV",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "validation",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  },
+  {
+    "study_id": "SC0376",
+    "dataset_id": "D1",
+    "name": "MIMIC-III",
+    "canonical_name": "MIMIC-III",
+    "clinical_source_key": "MIMIC-III",
+    "analysis_label": "MIMIC-III",
+    "empirical_clinical_source": true,
+    "roles": [
+      "training",
+      "testing"
+    ],
+    "version": null,
+    "status": "reported"
+  }
+]

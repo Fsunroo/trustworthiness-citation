@@ -1,16 +1,18 @@
-# Trustworthiness and Reproducibility of Generative Large Language Models Using Public Critical Care EHR Data
+# Trustworthiness and reproducibility reporting in large language model studies using publicly accessible critical care electronic health record datasets: A scoping review
 
 ## Supporting citation-network analysis
 
-This repository contains the historical direct-citation analysis, figures, interactive explorer, and citation evidence supporting the manuscript **“Trustworthiness and Reproducibility of Generative Large Language Models Using Public Critical Care EHR Data.”**
+This repository contains the historical direct-citation analysis, figures, interactive explorer, and citation evidence supporting the manuscript **“Trustworthiness and reproducibility reporting in large language model studies using publicly accessible critical care electronic health record datasets: A scoping review.”**
 
 **Manuscript status:** In preparation for journal submission.
 
 **Manuscript DOI:** Not assigned.
 
-The analysis starts from the 44 papers included in the review and expands the network to the works cited in their reference lists, including earlier foundational publications outside the inclusion set. The repository provides the materials needed to inspect and reproduce this citation-network analysis. It does not contain patient-level EHR data.
+The analysis starts from the 44 papers included in the review and expands the network to the works cited in their reference lists, including earlier foundational publications outside the inclusion set. The repository also includes the coded scoping review data, coverage tables and verification scripts. It contains study-level data from published reports.
 
 ## Start here
+
+- [Scoping review data and replication checks](review-data/README.md).
 
 - [Interactive reference-network explorer](output/explorer/reference_network_explorer.html): download and open locally to search included papers and cited references.
 - [Main figure (PDF)](output/figures/expanded_reference_historiograph.pdf) · [PNG](output/figures/expanded_reference_historiograph.png) · [Editable SVG](output/figures/expanded_reference_historiograph.svg).
@@ -21,7 +23,7 @@ The analysis starts from the 44 papers included in the review and expands the ne
 
 The manuscript has no DOI at this stage. The DOIs in the network and evidence tables identify the cited publications, not this manuscript. Publication details and the manuscript DOI can be added here when available.
 
-When referring to this repository before publication, identify the manuscript by its full title and include the repository URL and the commit used for the analysis. The repository contains supporting materials for this specific analysis; it is not a complete reproducibility package for every component of the review.
+When referring to this repository before publication, identify the manuscript by its full title and include the repository URL and the commit used for the analysis. Use the versioned review release to identify the data and code that accompany the manuscript.
 
 ## Main outputs
 
@@ -93,7 +95,7 @@ python3 verify_network.py
 
 To generate the native Bibliometrix outputs, run `Rscript run_bibliometrix_expanded.R output` with Bibliometrix 5.5.0. The committed `output/bibliometrix/R_sessionInfo.txt` documents the archived edge-validation run. Opening the explorer and verifying the committed network require neither R nor network access. The explorer builder uses vendored vis-network assets with the upstream license notice.
 
-`extract_references.py`, `build_reference_data.py`, `fetch_doi_metadata.py` and `prepare_exports.py` preserve the original extraction/export workflow. These archival scripts depend on the original scoping-review workspace, full texts, bounding-box extracts and database; those source documents and the review database are not bundled here. Use the committed reference evidence and portable commands above for this standalone repository. The original absolute source paths in the evidence ledger describe provenance, not repository file locations.
+`extract_references.py`, `build_reference_data.py`, `fetch_doi_metadata.py` and `prepare_exports.py` preserve the original extraction/export workflow. These archival scripts depend on the original scoping-review workspace, full texts, bounding-box extracts and database; those source documents and the review database are not bundled here. Use the committed reference evidence and portable commands above for this standalone repository. Paths in the evidence ledger are relative to the source workspace. They preserve source file and location information. The underlying local source files are outside this repository.
 
 `verify_network.py` checks that the frozen cohort, evidence, final graph and archived Bibliometrix edge pairs agree.
 
