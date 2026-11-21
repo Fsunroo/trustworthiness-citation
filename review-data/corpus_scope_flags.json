@@ -5,12 +5,20 @@
     {
       "article_id": "J0002",
       "concern": "A surgical admission cohort drawn from MIMIC-IV does not by itself establish that every evaluated stay was an ICU stay; analytic ICU membership needs clarification.",
-      "basis": "Parent main-text and supplement review."
+      "basis": "Parent main-text and supplement review.",
+      "evaluation_icu_cohort_linkage": {
+        "J0002_E01": "unconfirmed",
+        "J0002_E02": "unconfirmed"
+      }
     },
     {
       "article_id": "J0009",
       "concern": "Diagnostic evaluation uses patient cases/benchmarks of differing origin. ICU analytic membership of each included case set needs explicit differentiation from general diagnostic tasks.",
-      "basis": "Main/supplement experiment boundary review."
+      "basis": "Main/supplement experiment boundary review.",
+      "evaluation_icu_cohort_linkage": {
+        "J0009_E01": "unresolved",
+        "J0009_E02": "unresolved"
+      }
     },
     {
       "article_id": "J0093",
