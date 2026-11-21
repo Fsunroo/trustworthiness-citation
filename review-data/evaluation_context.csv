@@ -5,8 +5,8 @@ J0003_E01,patient-disjoint 20%test,hour 24 after ICU admission,subsequent in-hos
 J0003_E02,external frozen bank,hour 24 after ICU admission,subsequent in-hospital mortality,J0003_EV004;J0003_EV007,
 J0003_E03,external frozen bank; potential overlap,hour 24 after ICU admission,subsequent in-hospital mortality,J0003_EV004;J0003_EV007,
 J0003_E04,external frozen bank,hour 24 after ICU admission,subsequent in-hospital mortality,J0003_EV004;J0003_EV007,
-J0009_E01,Existing benchmark evaluation; no separate tuning partition documented,Early emergency assessment,Current diagnosis at presentation,J0009_V021,
-J0009_E02,Existing benchmark evaluation; no separate tuning partition documented,Acute abdominal pain encounter,Current diagnosis at presentation,J0009_V021,
+J0009_E01,Existing benchmark evaluation; no separate tuning partition documented,Early emergency assessment,Current diagnosis at presentation,J0009_V021,unresolved
+J0009_E02,Existing benchmark evaluation; no separate tuning partition documented,Acute abdominal pain encounter,Current diagnosis at presentation,J0009_V021,unresolved
 J0009_E03,Existing benchmark evaluation; no separate tuning partition documented,Viva-style diagnostic reasoning at presentation,Current diagnosis at presentation,J0009_V021,
 J0012_E01,"Offline human versus LLM; 10 prompt-development patients, disjoint ness unresolved",After hospital discharge,Outpatient transition care planning,J0012_EV003;J0012_EV005,
 J0012_E02,"Offline human versus LLM; 10 prompt-development patients, disjoint ness unresolved",After hospital discharge,Outpatient transition care planning,J0012_EV003;J0012_EV005,

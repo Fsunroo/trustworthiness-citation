@@ -5,8 +5,8 @@ J0003,J0003_E01,True,prediction,Mortality-risk estimation,MIMIC-IV ICU,predictor
 J0003,J0003_E02,True,prediction,Mortality-risk estimation,eICU,predictor;memory generator;retriever,direct_llm
 J0003,J0003_E03,True,prediction,Mortality-risk estimation,MIMIC-III,predictor;memory generator;retriever,direct_llm
 J0003,J0003_E04,True,prediction,Mortality-risk estimation,HiRID,predictor;memory generator;retriever,direct_llm
-J0009,J0009_E01,True,diagnosis_phenotyping,Simulated clinical diagnosis and decision-time reliability,MIRA-v2; 551 cases; MIMIC-IV v2.2; ICU linkage unresolved,clinical generator;tool-using agent,direct_llm
-J0009,J0009_E02,True,diagnosis_phenotyping,Simulated clinical diagnosis and decision-time reliability,"CDM; 2,400 cases; MIMIC-IV v2.2; ICU linkage unresolved",clinical generator;tool-using agent,direct_llm
+J0009,J0009_E01,True,diagnosis_phenotyping,Simulated clinical diagnosis and decision-time reliability,MIRA-v2; 551 cases; MIMIC-IV v2.2,clinical generator;tool-using agent,direct_llm
+J0009,J0009_E02,True,diagnosis_phenotyping,Simulated clinical diagnosis and decision-time reliability,"CDM; 2,400 cases; MIMIC-IV v2.2",clinical generator;tool-using agent,direct_llm
 J0009,J0009_E03,True,diagnosis_phenotyping,Simulated clinical diagnosis and decision-time reliability,VivaBench; 990 PubMed case-report cases,clinical generator;tool-using agent,direct_llm
 J0012,J0012_E01,True,summarization,Data care-planning synopsis,64 MIMIC-III multimorbidity patients,clinical summarizer;care planning support,direct_llm
 J0012,J0012_E02,True,summarization,Information care-planning synopsis,64 MIMIC-III multimorbidity patients,clinical summarizer;care planning support,direct_llm
