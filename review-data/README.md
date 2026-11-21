@@ -15,6 +15,8 @@ This release contains the coded results and source locators for 44 published rep
 
 The [156-item instrument](checklist_v1.0.md), [operational codebook](CODEBOOK_v1.1.md), and [6,864 coded item responses](item_responses.csv) describe the charted evidence. The [784 reported numerical estimates](descriptive_result_ledger.csv) retain their original units and denominators. The [source locator index](source_locators.csv) maps evidence IDs to source locations. Table S1 and the citation-network input identify the publications. The repository distributes study-level data derived from publications.
 
+Join [evaluation characteristics](evaluation_characteristics.csv) to [evaluation context](evaluation_context.csv) on `experiment_id` to find the split, clinical decision time, prediction horizon, and evidence IDs. Look up each evidence ID in the [source locator index](source_locators.csv) using `article_id` and `evidence_id`. The [contextual evaluation decisions](contextual_evaluation_decisions.json) record the reasons for excluding the two contextual evaluations from the primary analysis.
+
 The [source discrepancy ledger](source_discrepancies.csv), [eligibility scope annotations](corpus_scope_flags.json), [artifact availability](inspected_artifact_availability.csv), and [positive assessment scope](positive_assessment_scope.csv) document qualifications that affect interpretation. The flow count file transcribes the manuscript diagram and supports checking the arithmetic. The historical coding for supplementary Figures S1–S2 uses categories specific to those figures.
 
 Run the following from the repository root with Python 3:

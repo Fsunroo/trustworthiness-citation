@@ -68,6 +68,13 @@ def main():
     primary = {row['experiment_id'] for row in evaluations if row['primary_scope'] == 'True'}
     linked = {row['experiment_id'] for row in evaluations}
     assert len(evaluations) == len(linked) == 150 and len(primary) == 148
+    report_by_evaluation = {row['experiment_id']: row['article_id'] for row in evaluations}
+    context = read('evaluation_context.csv')
+    assert len(context) == len(linked) and {row['experiment_id'] for row in context} == linked
+    locators = {(row['article_id'], row['evidence_id']) for row in read('source_locators.csv')}
+    for row in context:
+        report = report_by_evaluation[row['experiment_id']]
+        assert all((report, evidence_id) in locators for evidence_id in row['evidence_ids'].split(';')), row['experiment_id']
     articles = {row['article_id'] for row in read('corpus_characteristics.csv')}
     assert len(articles) == 44 and 'J0176' not in articles
     items = read('item_responses.csv')
@@ -125,7 +132,7 @@ def main():
     assert flow['Reports assessed'] - flow['Full-text exclusions'] == flow['Included reports']
     assert sum(int(r['n']) for r in flow_rows if r['stage'] == 'full_text_exclusion') == flow['Full-text exclusions']
     check_geography(articles)
-    print('Verified 44 reports, 150 evaluations, 6,864 checklist responses, 784 estimates, all coverage tables, flow arithmetic, and geographic counts.')
+    print('Verified 44 reports, 150 evaluations and their evidence links, 6,864 checklist responses, 784 estimates, all coverage tables, flow arithmetic, and geographic counts.')
 
 
 if __name__ == '__main__':
