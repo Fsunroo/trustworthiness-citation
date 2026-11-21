@@ -1,6 +1,6 @@
 article_id,experiment_id,primary_scope,task_family,task,cohort,model_roles,output_type
-J0002,J0002_E01,True,summarization,CABG brief hospital-course drafting,MIMIC-IV4538 CABG admissions; ICU linkage not confirmed,clinical generator,direct_llm
-J0002,J0002_E02,True,summarization,Lobectomy brief hospital-course drafting,MIMIC-IV696 lobectomy admissions; ICU linkage not confirmed,clinical generator,direct_llm
+J0002,J0002_E01,True,summarization,CABG brief hospital-course drafting,MIMIC-IV4538 CABG admissions,clinical generator,direct_llm
+J0002,J0002_E02,True,summarization,Lobectomy brief hospital-course drafting,MIMIC-IV696 lobectomy admissions,clinical generator,direct_llm
 J0003,J0003_E01,True,prediction,Mortality-risk estimation,MIMIC-IV ICU,predictor;memory generator;retriever,direct_llm
 J0003,J0003_E02,True,prediction,Mortality-risk estimation,eICU,predictor;memory generator;retriever,direct_llm
 J0003,J0003_E03,True,prediction,Mortality-risk estimation,MIMIC-III,predictor;memory generator;retriever,direct_llm

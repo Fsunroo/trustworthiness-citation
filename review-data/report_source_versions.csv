@@ -1,0 +1,45 @@
+article_id,version_assessed,date_notes
+J0002,Published version,Published 24 September 2026; accepted 25 August 2026; vol. 28 e90870 (PDF L1180–1188).
+J0003,User-provided full text,Assessed supplied full report; publication and source-version dates are distinguished in A02.
+J0009,Supplied full text,"Publisher landing page checked on 16 October 2026: published online 15 September 2026; October 2026 issue, volume 32, pages 3705–3716. The supplied PDF contains the placeholder online date “xx xx xxxx”; this version discrepancy is retained."
+J0012,Supplied full text,Assessed supplied full report; publication and source-version dates are distinguished in A02.
+J0015,User-supplied full text,Exact online and issue dates not both established in assessed PDF.
+J0020,Supplied full text,Assessed supplied full report; publication and source-version dates are distinguished in A02.
+J0035,Supplied full text,Assessed supplied full report; publication and source-version dates are distinguished in A02.
+J0036,Supplied full text,"2026 AMIA proceedings-style supplied full text (printed proceedings pagination); database PMID42317811 and related arXiv2512.01210 recorded, bibliographic identifiers not independently confirmed. Exact final publication date unresolved."
+J0042,Supplied full text,"Published8 June2026 (JATS publication date); received13 October2025, revised12 April2026, accepted13 April2026."
+J0045,User-provided full text,Exact online and issue dates not both established in assessed PDF.
+J0056,User-provided full text,Received2 April2024; revised24 March2026; accepted29 April2026; online2 May2026; Artif Intell Med178:103444.
+J0059,User-provided full text,2026 accepted author manuscript for IEEE JBHI; printed DOI10.1109/JBHI.2026.3691375. Exact online/issue publication date not established; licensing download timestamp is not publication date.
+J0060,User-provided full text,"Published online 5 May 2026; received 29 August 2025, accepted 25 April 2026. Journal issue year 2026; exact issue date not established."
+J0061,Supplied 14-page IEEE accepted author version plus two repository PDF appendices,"Year 2026; exact online/issue date not stated in supplied manuscript. IEEE download stamp 9 October 2026 is an access date, not publication date."
+J0062,Supplied version-of-record 10-page PDF and publisher supplementary DOCX,Main PDF reports received 10 November 2025 and accepted 10 April 2026. Online publication 21 April 2026 was checked by the preceding retrieval agent; distinct issue date not established.
+J0073,Supplied full text,"Received 15 June 2025, revised 5 January 2026, accepted 6 January 2026. Main PDF footer identifies issue 4 of 2026; exact online and issue dates not independently established. Download stamp is not publication date."
+J0077,Supplied full text,Bibliographic year retained; online and issue dates distinguished where present in assessed full text.
+J0093,Open-access published full text,"Full text states online 27 November 2025, accepted 2 November 2025, collection December 2026. Manifest year 2026 retained as issue year; do not interpret it as first publication."
+J0095,Version of record PDF and Supplementary Material 1,"Publisher webpage checked: publication/version of record 26 November 2025; received 11 April 2025, accepted 6 October 2025. Main PDF gives year only."
+J0102,Supplied full text,Bibliographic year retained; online and issue dates distinguished where present in assessed full text.
+J0104,Supplied full text,Bibliographic year retained; online and issue dates distinguished where present in assessed full text.
+J0113,"Supplied accepted author manuscript PDF, 12 pages",2025 DOI and acceptance footer; exact online and issue dates absent from assessed PDF. Download footer dated 9 October 2026 is not publication date.
+J0132,User-provided full text,Received9 February2025; revised8 June; accepted22 June; online4 July2025; Journal of Biomedical Informatics168(2025)104868.
+J0135,Open-access published full text,"Published 18 June 2025; received 8 May, revised 29 May, accepted 3 June 2025. JATS date token 1862025."
+J0173,Supplied full text,"Published31 May2024; submitted22 January, revised22 April, accepted27 April2024. Final JMIR26:e56614 PDF."
+J0206,arXiv:2406.00036 v 2 dated 26 February 2025 with CIKM 2024 citation,"Conference 21–25 October 2024; local arXivv 2 dated 2025-02-26, distinct from 2024 publication. Exact online date NR."
+J0216,"Published ICLR 2025 PDF, 46 pages including appendices",Published ICLR 2025 report; related arXiv 2410.04585 initially appeared in 2024. The exact conference publication date was not established in the assessed PDF.
+J0238,Published main XML and publisher supplement; selected current repository files,Received 25 March 2025; accepted 15 March 2026. Corpus metadata retains earlier 2025 preprint identity.
+J0250,"Published proceedings PDF, 13 pages","Published in Findings of EMNLP, 4–9 November 2025, pages 23415–23427. Related preprint arXiv 2505.16288; the published version was assessed."
+J0299,"arXiv:2512.19735v4 dated 30 September 2026, 42 pages with appendices A–D",Online 2026-09-28 verified PubMed. 2027 issue year required by corpus bibliographic reconciliation; separate from initial 2025 preprint and September 2026 version. Publisher DOI fetch unavailable; version-of-record fulltext not compared.
+J0300,"arXiv:2512.16189v4, 9 June 2026, 26 pages; footer identifies manuscript submitted to Elsevier",Initial preprint dated 2025; assessed v4 dated 9 June 2026. Corpus links the report to Expert Systems with Applications 329:132966 (2026). Publisher DOI retrieval returned HTTP 403; the version of record was not compared with the assessed manuscript.
+J0345,"Published proceedings PDF including appendices, 13 pages","Published 2–7 July 2026, pages 26766–26778. Related preprint arXiv:2604.17725; the published proceedings version was assessed."
+J0450,Published version,"Submitted 4 October 2025, accepted 5 November 2025, published 21 December 2025."
+J0519,Published version,Received 27 November 2025; accepted 10 September 2026. Supplied article-in-press version assessed; final edited version not compared.
+J0531,User-provided full text,Received 18 March 2025; revised 15 July 2025; accepted 11 September 2025. Supplied journal version assessed; conference-version comparison not performed.
+J0911,Published full text — supplied by user,Published online 13 May 2025; accepted 23 April 2025; supplied published PDF assessed.
+SC0007,Supplied 27-page paper with Appendices A–D and ten selected pinned repository files,Received 3 February 2026; revised 20 July; accepted 21 July; online 22 July 2026.
+SC0096,Supplied 13-page proceedings PDF with four research-text pages and references,Proceedings year 2026; exact online/conference date is not given.
+SC0116,Supplied eight-page SciTePress paper with rendered figures inspected,Proceedings year 2026; exact online/proceedings date is not stated in the supplied PDF.
+SC0159,Supplied nine-page IEEE proceedings PDF,Proceedings year 2026; exact online/conference date is not stated. The 10 October download stamp is not a publication date.
+SC0176,"Complete locally supplied main PDF, all pages including references and appendices.",Published 9 March2026; current version2 April2026; accepted23 February2026 after receipt11 February2026 (p1).
+SC0198,"Complete locally supplied main PDF, all pages including references and appendices.","ACM-BCB proceedings October11–15,2025; main12-page published PDF. Online publication date not separately reported."
+SC0230,"Complete locally supplied main PDF, all pages including references and appendices.",Available online30 March2025; received23 December2024; accepted20 March2025. Main Information Fusion121(2025)103145.
+SC0376,"11-page medRxiv manuscript dated20January2025, DOI10.1101/2025.01.19.25320797, with included appendices; linked published2024IEEE conference metadata retained separately.","Metadata identifies IEEE ICDMW2024 conference report,859–866. Supplied full text is later medRxiv preprint posted20January2025; manuscript content not assumed identical to published8-page conference version."
